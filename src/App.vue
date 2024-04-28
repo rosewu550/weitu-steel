@@ -3,7 +3,7 @@
     <el-container>
       <el-header>
         <div class="logo">
-          <img src="./assets/img/toplogo.png" alt />
+          <img src="./assets/img/weitu-logo.png" alt />
         </div>
         <el-menu
           :default-active="defaultActive"
@@ -12,12 +12,10 @@
           @select="handleSelect"
           :router="router"
         >
-          <el-menu-item index="/">首页</el-menu-item>
-          <el-menu-item index="/news">新闻资讯</el-menu-item>
-          <el-menu-item index="/product">产品中心</el-menu-item>
-          <el-menu-item index="/case">经典案例</el-menu-item>
-          <el-menu-item index="/goin">走进科建</el-menu-item>
-          <el-menu-item index="/download">下载APP</el-menu-item>
+          <el-menu-item index="/">portal</el-menu-item>
+          <el-menu-item index="/news">company performance</el-menu-item>
+          <el-menu-item index="/product">about weitu</el-menu-item>
+          <el-menu-item index="/case">contact us</el-menu-item>
         </el-menu>
       </el-header>
       <el-main>
@@ -103,20 +101,34 @@ body {
   align-content: center;
   width: 1240px;
   margin: 0 auto;
+  height: 106px !important;
   //background-color: #fff;
 
   .logo {
-    width: 280px;
-    padding: 10px;
+    width: 130px;
+    padding: 40px 0;
     img {
       width: 100%;
-      line-height: 60px;
+      line-height: 26px;
     }
   }
 }
 .el-main {
   padding: 0 !important;
 }
+.el-menu--horizontal {
+  .el-menu-item{
+    height: 0 !important;
+    line-height: 0 !important;
+  }
+}
+
+.el-menu-item{
+  height: 0 !important;
+  line-height: 0 !important;
+  padding: 53px 20px !important;
+}
+
 
 .footer {
   width: 100%;
