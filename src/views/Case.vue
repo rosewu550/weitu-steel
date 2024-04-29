@@ -3,6 +3,7 @@
     <banner img="../assets/img/bgtop.jpg" title="精典案例" />
     <div class="case-section" v-loading="loading">
       <div class="case-section-content">
+
         <div class="case-section-content-list" v-for="(cas,index) in caseList" :key="index">
           <img v-lazy="imgserver+cas.Img" />
           <div class="content-list-abstract" :class="{'abstract-active' : index%2!=1}">
@@ -19,10 +20,12 @@
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </div>
 </template>
+
 <script>
 import Banner from "../components/Banner";
 export default {
@@ -36,7 +39,7 @@ export default {
     };
   },
   mounted() {
-    window.console.log("case");
+    // window.console.log("case");
     this.$http
       .get("Cases/GetCasesAll")
       .then(response => {

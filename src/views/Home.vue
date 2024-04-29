@@ -1,24 +1,25 @@
 <template>
   <div class="home" v-loading="loading">
-    <swiper id="swiperBox" v-bind:options="swiperOption" ref="mySwiper">
-      <swiper-slide class="swiper-slide slide-one">
+    <div class="portal swiper-slide slide-one">
+      <div class="portal-first swiper-slide slide-one">
         <div class="page">
-          <p>PROFESSIONALISM QUALITY INTEGRITY</p>
+          <p class="big-slogan">PROFESSIONALISM QUALITY INTEGRITY</p>
         </div>
-      </swiper-slide>
-      <swiper-slide class="swiper-slide slide-two">
-        <div class="page">
+      </div>
+
+      <div class="portal-second swiper-slide slide-two">
+        <div class="page sub-page">
           <h3>SUECESSFUL CASS</h3>
         </div>
         <ul class="case-item">
           <li
-            v-for="(item,index) in caseList"
-            :key="index"
-            v-lazy:background-image="imgserver + item.Img"
+              v-for="(item,index) in caseList"
+              :key="index"
+              v-lazy:background-image="imgserver + item.Img"
           >
             <router-link
-              class="text-decoration"
-              :to="{ name: 'casedetails', params: { id: item.Id }}"
+                class="text-decoration"
+                :to="{ name: 'casedetails', params: { id: item.Id }}"
             >
               <div class="case-item-hover">
                 <p class="hover-title">{{item.Title}}</p>
@@ -30,18 +31,18 @@
             </router-link>
           </li>
         </ul>
-      </swiper-slide>
-      <swiper-slide class="swiper-slide slide-three">
-        <div class="page">
-          <h3>最新资讯</h3>
-          <p>Latest News</p>
+        <div class="page sub-page">
+          <p>more -></p>
         </div>
+      </div>
+
+      <div class="portal-third swiper-slide slide-three">
         <div class="news-content">
           <div class="news-content-item" v-for="(news,i) in newsList" :key="i">
             <div :style="'order: '+ (i%2==0 ? 1: 3)">
               <router-link
-                class="text-decoration"
-                :to="{ name: 'newsdetails', params: { id: news.Id }}"
+                  class="text-decoration"
+                  :to="{ name: 'newsdetails', params: { id: news.Id }}"
               >
                 <div class="item-img" v-lazy:background-image="imgserver + news.Img"></div>
               </router-link>
@@ -58,18 +59,23 @@
             </div>
           </div>
         </div>
-      </swiper-slide>
-    </swiper>
+        <div class="page">
+          <h3>CONTACT US</h3>
+        </div>
+      </div>
+
+
+    </div>
   </div>
 </template>
  
 <script>
-import { swiper, swiperSlide } from "vue-awesome-swiper";
+// import { swiper, swiperSlide } from "vue-awesome-swiper";
 export default {
   name: "HelloWorld",
   components: {
-    swiper,
-    swiperSlide
+    // swiper,
+    // swiperSlide
   },
   data() {
     return {
@@ -140,22 +146,44 @@ export default {
 /* .el-header {
   position: absolute;
 } */
+
+.portal{
+  .portal-first{
+    height: 750px;
+  }
+
+  .portal-second{
+    height: 750px;
+  }
+
+  .portal-third{
+    height: 750px;
+  }
+}
+
 .swiper-slide {
+  height: auto;
   font-size: 24px;
   // text-align: center;
   // line-height: 100px;
-  display: flex;
+  //display: ;
   flex-direction: column;
   justify-content: center;
   align-content: center;
 
   .page {
     text-align: center;
-    height: 100px;
+    //height: 550px;
     overflow: hidden;
+    .big-slogan{
+      font-size: 40px;
+      font-weight: bold;
+      color: #fff;
+    }
     h3,
     p {
-      font-size: 40px;
+      //margin: 50px 0;
+      font-size: 30px;
       font-weight: bold;
       color: #fff;
     }
@@ -247,11 +275,11 @@ export default {
   background-size: cover;
 }
 .slide-two {
-  background: url(../assets/img/home_do.jpg) no-repeat center;
+  background: url(../assets/img/weitu-center-2.png) no-repeat center;
   background-size: cover;
 }
 .slide-three {
-  background: url(../assets/img/home_anli.jpg) no-repeat center;
+  background: url(../assets/img/weitu_bottom.png) no-repeat center;
   background-size: cover;
 }
 //最新资讯
