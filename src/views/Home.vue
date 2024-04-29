@@ -3,13 +3,12 @@
     <swiper id="swiperBox" v-bind:options="swiperOption" ref="mySwiper">
       <swiper-slide class="swiper-slide slide-one">
         <div class="page">
-          <p>Professionalism Quality Integrity</p>
+          <p>PROFESSIONALISM QUALITY INTEGRITY</p>
         </div>
       </swiper-slide>
       <swiper-slide class="swiper-slide slide-two">
         <div class="page">
-          <h3>经典案例</h3>
-          <p>Suecessful Cass</p>
+          <h3>SUECESSFUL CASS</h3>
         </div>
         <ul class="case-item">
           <li
@@ -157,7 +156,7 @@ export default {
     h3,
     p {
       font-size: 40px;
-      font-weight: 400;
+      font-weight: bold;
       color: #fff;
     }
   }

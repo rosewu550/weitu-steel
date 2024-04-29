@@ -3,14 +3,14 @@
     <el-container>
       <el-header>
         <div class="logo">
-          <img src="./assets/img/weitu-logo.png" alt />
+          <img src="./assets/img/weitu-logo.png" alt/>
         </div>
         <el-menu
-          :default-active="defaultActive"
-          class="el-menu-demo"
-          mode="horizontal"
-          @select="handleSelect"
-          :router="router"
+            :default-active="defaultActive"
+            class="el-menu-demo"
+            mode="horizontal"
+            @select="handleSelect"
+            :router="router"
         >
           <el-menu-item index="/">portal</el-menu-item>
           <el-menu-item index="/news">company performance</el-menu-item>
@@ -19,7 +19,7 @@
         </el-menu>
       </el-header>
       <el-main>
-        <router-view />
+        <router-view/>
       </el-main>
       <div class="footer" v-show="isShow">
         <div class="footer-content">
@@ -50,7 +50,7 @@
               <span>地址：上海市杨浦区翔殷路128号12号楼101</span>
             </li>
           </ul>
-          <img src="./assets/img/ercode.png" alt />
+          <img src="./assets/img/ercode.png" alt/>
         </div>
         <div class="copyright">
           <span>科建版权所有</span>
@@ -83,13 +83,14 @@ export default {
   padding: 0;
   margin: 0;
 }
+
 html,
 body {
   height: 100%;
 }
 
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: "Outfit", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
@@ -107,26 +108,30 @@ body {
   .logo {
     width: 130px;
     padding: 40px 0;
+
     img {
       width: 100%;
       line-height: 26px;
     }
   }
 }
+
 .el-main {
   padding: 0 !important;
 }
+
 .el-menu--horizontal {
-  .el-menu-item{
+  .el-menu-item {
     height: 0 !important;
     line-height: 0 !important;
   }
 }
 
-.el-menu-item{
+.el-menu-item {
   height: 0 !important;
   line-height: 0 !important;
   padding: 53px 20px !important;
+  font-size: 20px !important;
 }
 
 
@@ -135,26 +140,31 @@ body {
   height: 216px;
   overflow: hidden;
   background-color: #14679f;
+
   &-content {
     width: 1240px;
     margin: 0 auto;
     padding-top: 20px;
     display: flex;
     justify-content: space-between;
+
     .content-nav {
       display: flex;
       justify-content: space-around;
+
       li {
         display: flex;
         flex-direction: column;
         padding: 0 20px;
         //justify-content: center;
         align-items: flex-start;
+
         p {
           font-size: 20px;
           color: #d4edff;
           padding: 10px 0;
         }
+
         span {
           color: #f7f7f7;
           font-weight: 300;
@@ -162,15 +172,18 @@ body {
         }
       }
     }
+
     img {
       width: 170px;
       height: 170px;
       padding: 10px;
     }
   }
+
   .copyright {
     height: 30px;
     background: #125688;
+
     span {
       color: #fff;
       line-height: 30px;
