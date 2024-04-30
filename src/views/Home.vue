@@ -31,9 +31,9 @@
             </router-link>
           </li>
         </ul>
-        <div class="page sub-page">
-          <p>more -></p>
-        </div>
+        <div class="bottom-page">
+          <p>more</p>
+        </div>s
       </div>
 
       <div class="portal-third swiper-slide slide-three">
@@ -161,7 +161,7 @@ export default {
   }
 }
 
-.swiper-slide {
+.swiper-slide{
   height: auto;
   font-size: 24px;
   // text-align: center;
@@ -169,7 +169,7 @@ export default {
   //display: ;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
+  //align-content: center;
 
   .page {
     text-align: center;
@@ -180,12 +180,34 @@ export default {
       font-weight: bold;
       color: #fff;
     }
+
     h3,
     p {
-      //margin: 50px 0;
       font-size: 30px;
       font-weight: bold;
       color: #fff;
+    }
+  }
+
+  .bottom-page{
+    text-align: center;
+    //height: 550px;
+    overflow: hidden;
+
+    p {
+      font-size: 30px;
+      //font-weight: bold;
+      color: #fff;
+    }
+
+    p:after{
+      content: '';
+      background: url("../assets/img/medium-arrow.png") no-repeat bottom right /32px 16px;
+      position: absolute;
+      top: 15px;
+      //z-index: 2;
+      width: 32px;
+      height: 16px;
     }
   }
 
@@ -196,6 +218,11 @@ export default {
     padding: 30px 0;
   }
 }
+
+.swiper-slide .slide-one{
+  align-content: center;
+}
+
 //经典案例
 .case-item {
   width: 1100px;
