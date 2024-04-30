@@ -1,16 +1,16 @@
 <template>
   <div id="app">
     <el-container>
-      <el-header>
+      <el-header class="header">
         <div class="logo">
-          <img src="./assets/img/weitu-logo.png" alt/>
+          <img src="./assets/img/weitu-logo.png" alt />
         </div>
         <el-menu
-            :default-active="defaultActive"
-            class="el-menu-demo"
-            mode="horizontal"
-            @select="handleSelect"
-            :router="router"
+          :default-active="defaultActive"
+          class="el-menu-demo"
+          mode="horizontal"
+          @select="handleSelect"
+          :router="router"
         >
           <el-menu-item index="/">portal</el-menu-item>
           <el-menu-item index="/news">company performance</el-menu-item>
@@ -19,7 +19,7 @@
         </el-menu>
       </el-header>
       <el-main>
-        <router-view/>
+        <router-view />
       </el-main>
       <div class="footer" v-show="isShow">
         <div class="footer-content">
@@ -50,7 +50,7 @@
               <span>地址：上海市杨浦区翔殷路128号12号楼101</span>
             </li>
           </ul>
-          <img src="./assets/img/ercode.png" alt/>
+          <img src="./assets/img/ercode.png" alt />
         </div>
         <div class="copyright">
           <span>科建版权所有</span>
@@ -66,15 +66,15 @@ export default {
     return {
       router: true,
       defaultActive: "/",
-      isShow: false
+      isShow: false,
     };
   },
   methods: {
     handleSelect(key) {
       this.isShow = this.defaultActive != key;
       window.console.log(this.isShow);
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -100,9 +100,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  width: 1240px;
+  width: 100%;
   margin: 0 auto;
   height: 106px !important;
+  position: fixed;
+  z-index: 10;
+  background: #fff;
   //background-color: #fff;
 
   .logo {
@@ -133,7 +136,6 @@ body {
   padding: 53px 20px !important;
   font-size: 20px !important;
 }
-
 
 .footer {
   width: 100%;
@@ -191,3 +193,4 @@ body {
   }
 }
 </style>
+

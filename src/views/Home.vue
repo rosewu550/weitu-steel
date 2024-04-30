@@ -12,17 +12,10 @@
           <h3>SUECESSFUL CASS</h3>
         </div>
         <ul class="case-item">
-          <li
-              v-for="(item,index) in caseList"
-              :key="index"
-              v-lazy:background-image="imgserver + item.Img"
-          >
-            <router-link
-                class="text-decoration"
-                :to="{ name: 'casedetails', params: { id: item.Id }}"
-            >
+          <li v-for="(item, index) in caseList" :key="index" v-lazy:background-image="imgserver + item.Img">
+            <router-link class="text-decoration" :to="{ name: 'casedetails', params: { id: item.Id } }">
               <div class="case-item-hover">
-                <p class="hover-title">{{item.Title}}</p>
+                <p class="hover-title">{{ item.Title }}</p>
                 <div class="bottom"></div>
                 <div class="more">
                   <span>MORE</span>
@@ -33,17 +26,15 @@
         </ul>
         <div class="bottom-page">
           <p>more</p>
-        </div>s
+          <img src="../assets/img/medium-arrow.png" />
+        </div>
       </div>
 
       <div class="portal-third swiper-slide slide-three">
         <div class="news-content">
-          <div class="news-content-item" v-for="(news,i) in newsList" :key="i">
-            <div :style="'order: '+ (i%2==0 ? 1: 3)">
-              <router-link
-                  class="text-decoration"
-                  :to="{ name: 'newsdetails', params: { id: news.Id }}"
-              >
+          <div class="news-content-item" v-for="(news, i) in newsList" :key="i">
+            <div :style="'order: ' + (i % 2 == 0 ? 1 : 3)">
+              <router-link class="text-decoration" :to="{ name: 'newsdetails', params: { id: news.Id } }">
                 <div class="item-img" v-lazy:background-image="imgserver + news.Img"></div>
               </router-link>
             </div>
@@ -52,10 +43,10 @@
                 <i class="el-icon-apple"></i>
               </el-divider>
             </div>
-            <div class="item-content" :style="'order: '+ (i%2==0 ? 3: 1)">
-              <h3>{{news.Title}}</h3>
-              <p>{{news.Content}}</p>
-              <span>{{news.CreateTime}}</span>
+            <div class="item-content" :style="'order: ' + (i % 2 == 0 ? 3 : 1)">
+              <h3>{{ news.Title }}</h3>
+              <p>{{ news.Content }}</p>
+              <span>{{ news.CreateTime }}</span>
             </div>
           </div>
         </div>
@@ -63,12 +54,10 @@
           <h3>CONTACT US</h3>
         </div>
       </div>
-
-
     </div>
   </div>
 </template>
- 
+
 <script>
 // import { swiper, swiperSlide } from "vue-awesome-swiper";
 export default {
@@ -114,8 +103,8 @@ export default {
           //     this.list = this.list.concat(newList);
           //   }
           // }
-        }
-      }
+        },
+      },
     };
   },
   created() {},
@@ -123,45 +112,40 @@ export default {
   computed: {
     swiper() {
       return this.$refs.mySwiper.swiper;
-    }
+    },
   },
   mounted() {
-    this.$http
-      .all([
-        this.$http.get("Cases/GetCasesAll"),
-        this.$http.get(`News?type=1&num=3`)
-      ])
-      .then(
-        this.$http.spread((responseCases, responseNews) => {
-          this.caseList = responseCases.data;
-          this.newsList = responseNews.data;
-          this.loading = false;
-        })
-      );
-  }
+    this.$http.all([this.$http.get("Cases/GetCasesAll"), this.$http.get(`News?type=1&num=3`)]).then(
+      this.$http.spread((responseCases, responseNews) => {
+        this.caseList = responseCases.data;
+        this.newsList = responseNews.data;
+        this.loading = false;
+      }),
+    );
+  },
 };
 </script>
- 
+
 <style lang="scss" scoped>
 /* .el-header {
   position: absolute;
 } */
 
-.portal{
-  .portal-first{
-    height: 750px;
+.portal {
+  .portal-first {
+    height: 100vh !important;
   }
 
-  .portal-second{
-    height: 750px;
+  .portal-second {
+    height: 100vh !important;
   }
 
-  .portal-third{
-    height: 750px;
+  .portal-third {
+    height: 100vh !important;
   }
 }
 
-.swiper-slide{
+.swiper-slide {
   height: auto;
   font-size: 24px;
   // text-align: center;
@@ -175,7 +159,7 @@ export default {
     text-align: center;
     //height: 550px;
     overflow: hidden;
-    .big-slogan{
+    .big-slogan {
       font-size: 40px;
       font-weight: bold;
       color: #fff;
@@ -189,26 +173,39 @@ export default {
     }
   }
 
-  .bottom-page{
+  .bottom-page {
+    display: flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     //height: 550px;
     overflow: hidden;
+    margin-top: 10px;
+
+    img {
+      width: 32px;
+      height: 16px;
+      margin-left: 10px;
+    }
 
     p {
       font-size: 30px;
       //font-weight: bold;
       color: #fff;
+      position: relative;
     }
 
-    p:after{
-      content: '';
-      background: url("../assets/img/medium-arrow.png") no-repeat bottom right /32px 16px;
-      position: absolute;
-      top: 15px;
-      //z-index: 2;
-      width: 32px;
-      height: 16px;
-    }
+    // p:after {
+    //   content: "";
+    //   background: url("../assets/img/medium-arrow.png") no-repeat bottom right / 32px 16px;
+    //   position: absolute;
+    //   top: 15px;
+    //   right: 50%;
+    //   transform: translate(-50%, -50%);
+    //   //z-index: 2;
+    //   width: 32px;
+    //   height: 16px;
+    // }
   }
 
   .slogan {
@@ -219,7 +216,7 @@ export default {
   }
 }
 
-.swiper-slide .slide-one{
+.swiper-slide .slide-one {
   align-content: center;
 }
 
@@ -386,3 +383,4 @@ export default {
   order: 1;
 }
 </style>
+
