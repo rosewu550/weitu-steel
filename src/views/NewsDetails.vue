@@ -39,7 +39,7 @@ export default {
         .then(response => {
           //console.log(response);
           this.newsIdList = response.data;
-          window.console.log(this.newsIdList);
+          // window.console.log(this.newsIdList);
         })
         .catch(function(error) {
           window.console.log(error);

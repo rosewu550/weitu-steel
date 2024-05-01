@@ -1,4 +1,5 @@
 <template>
+  <div class="footer-root">
   <div class="weitu-footer">
     <div class="footer-column">
       <p>Company Profile</p>
@@ -29,7 +30,7 @@
       <p>Contact Us</p>
       <div>contact information</div>
     </div>
-
+  </div>
   </div>
 </template>
 
@@ -46,19 +47,27 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+.footer-root {
+  background: #000000;
+}
+
 .weitu-footer {
   width: 60%;
   display: flex;
   justify-content: space-between;
-  margin: 30px auto;
+  margin: 0 auto;
+  padding: 40px 0;
 
   p {
+    color: white;
     font-size: 20px;
     font-weight: bold;
   }
 
 
   .footer-column {
+    color: #969baa;
     display: grid;
     row-gap: 20px;
     grid-template-rows: 30px 30px 30px 30px 30px;

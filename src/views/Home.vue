@@ -10,7 +10,7 @@
 
       <div class="portal-second swiper-slide slide-two">
         <div class="page">
-          <h3>SUECESSFUL CASS</h3>
+          <h3>COMPANY PERFORMANCE</h3>
         </div>
         <ul class="case-item">
           <li v-for="(item, index) in caseList" :key="index">
@@ -27,6 +27,7 @@
 
       <div class="portal-third swiper-slide slide-three">
         <div class="page">
+          <h3>CONTACT US</h3>
           <div class="map">
             <MapContainer></MapContainer>
           </div>
@@ -48,8 +49,6 @@
               <div id="email">912112919191@qq.com</div>
             </div>
           </div>
-
-          <h3>CONTACT US</h3>
         </div>
       </div>
     </div>
@@ -216,18 +215,6 @@ export default {
       color: #fff;
       position: relative;
     }
-
-    // p:after {
-    //   content: "";
-    //   background: url("../assets/img/medium-arrow.png") no-repeat bottom right / 32px 16px;
-    //   position: absolute;
-    //   top: 15px;
-    //   right: 50%;
-    //   transform: translate(-50%, -50%);
-    //   //z-index: 2;
-    //   width: 32px;
-    //   height: 16px;
-    // }
   }
 
   .slogan {
@@ -248,7 +235,7 @@ export default {
       display: block;
       width: 60%;
       height: 600px;
-      margin: 0 auto 50px;
+      margin: 82px auto 50px;
       overflow: hidden;
       border-radius: 5px;
     }

@@ -10,9 +10,9 @@ let kejianrouter = new Router({
       component: () => import('./views/Home.vue')
     },
     {
-      path: '/news',
-      name: 'news',
-      component: () => import('./views/News.vue'),
+      path: '/companyPerformance',
+      name: 'companyPerformance',
+      component: () => import('./views/CompanyPerformance.vue'),
     },
     {
       path: '/newsdetails/:id',

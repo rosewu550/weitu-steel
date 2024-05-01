@@ -2,10 +2,10 @@
   <div class="banner">
     <div class="mm"></div>
     <div class="banner-img">
-      <img src="../assets/img/bgtop.jpg" />
+      <img :src="img"/>
     </div>
     <div class="banner-title">
-      <p>{{title}}</p>
+      <p>{{ title }}</p>
     </div>
   </div>
 </template>
@@ -20,7 +20,7 @@ export default {
     },
     img: {
       type: String,
-      default: "../assets/img/bgtop.jpg"
+      default: require("../assets/img/weitu-top.jpg")
     }
   }
 };
@@ -29,7 +29,7 @@ export default {
 <style lang="scss" scoped>
 .banner {
   width: 100%;
-  height: 300px;
+  height: 500px;
   display: flex;
   position: relative;
   overflow: hidden;
@@ -44,7 +44,7 @@ export default {
     margin: -10px;
     filter: blur(10px);
 
-    background-image: url(../assets/img/bgtop.jpg);
+    background-image: url(../assets/img/weitu-top.jpg);
     background-position: center;
     background-size: 100%;
   }
@@ -52,6 +52,8 @@ export default {
   img {
     position: absolute;
     //width: 1240px;
+    margin-top:100px;
+    width: 100%;
     height: 100%;
     left: 50%;
     transform: translate(-50%, 0);
@@ -59,9 +61,10 @@ export default {
 
   &-title {
     position: absolute;
+    padding-top:140px;
     color: #fff;
     font-size: 45px;
-    font-weight: 400;
+    font-weight: bold;
     line-height: 300px;
     text-align: center;
     width: 100%;
