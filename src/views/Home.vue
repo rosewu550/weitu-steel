@@ -57,7 +57,6 @@
 </template>
 
 <script>
-// import { swiper, swiperSlide } from "vue-awesome-swiper";
 import MapContainer from "../components/MapContanier.vue";
 
 export default {
