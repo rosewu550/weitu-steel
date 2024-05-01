@@ -162,7 +162,7 @@ export default {
                 img {
                   width: 18px;
                   height: 14px;
-                  margin: 11px 0 0 10px;
+                  margin: 5px 0 0 10px;
                 }
               }
 
@@ -172,8 +172,6 @@ export default {
               width: 450px;
               height: 280px;
             }
-
-
           }
 
           .company-case-odd {
