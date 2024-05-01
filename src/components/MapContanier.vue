@@ -11,16 +11,13 @@ export default {
   mounted() {
     this.initAMap();
   },
-  unmounted() {
-    this.map?.destroy();
-  },
   methods: {
     initAMap() {
       window._AMapSecurityConfig = {
-        securityJsCode: "2de08eb05e9ffa543850e9943addff22",
+        securityJsCode: "fe24e49cfd4c4e4a99899a46e5816e0f",
       };
       AMapLoader.load({
-        key: "", // 申请好的Web端开发者Key，首次调用 load 时必填
+        key: "8807bb8f1fc636572f32badadb6e847e", // 申请好的Web端开发者Key，首次调用 load 时必填
         version: "2.0", // 指定要加载的 JSAPI 的版本，缺省时默认为 1.4.15
         plugins: ["AMap.Scale"], //需要使用的的插件列表，如比例尺'AMap.Scale'，支持添加多个如：['...','...']
       })
@@ -29,8 +26,17 @@ export default {
               // 设置地图容器id
               viewMode: "3D", // 是否为3D地图模式
               zoom: 11, // 初始化地图级别
-              center: [116.397428, 39.90923], // 初始化地图中心点位置
+              center: [121.418042, 31.355867], // 初始化地图中心点位置
+              mapStyle: "amap://styles/whitesmoke",
             });
+
+            const marker = new AMap.Marker({
+              position: new AMap.LngLat(121.418042, 31.355867),
+              label:{
+                "content":"WEITU STEEL"
+              }
+            });
+            this.map.add(marker);
           });
     },
   },

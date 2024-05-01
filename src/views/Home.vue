@@ -27,7 +27,28 @@
 
       <div class="portal-third swiper-slide slide-three">
         <div class="page">
-          <MapContainer></MapContainer>
+          <div class="map">
+            <MapContainer></MapContainer>
+          </div>
+
+          <div class="contact-detail">
+            <div class="first-column">
+              <label for="address">address:</label>
+              <div id="address">Room 902, Building 5, Lane 680, Shuichan West Road, Baoshan District, Shanghai, China
+              </div>
+            </div>
+            <div class="second-column">
+              <label for="post-code">post code:</label>
+              <div id="post-code">200126</div>
+
+              <label for="telephone">telephone:</label>
+              <div id="telephone">13091119111</div>
+
+              <label for="email">email:</label>
+              <div id="email">912112919191@qq.com</div>
+            </div>
+          </div>
+
           <h3>CONTACT US</h3>
         </div>
       </div>
@@ -42,8 +63,7 @@ import MapContainer from "../components/MapContanier.vue";
 export default {
   name: "HelloWorld",
   components: {
-    // swiper,
-    // swiperSlide
+    MapContainer
   },
   data() {
     return {
@@ -223,10 +243,56 @@ export default {
   align-content: center;
 }
 
-.portal-third{
-  .page{
+.portal-third {
+  .page {
+    .map {
+      display: block;
+      width: 60%;
+      height: 600px;
+      margin: 0 auto 50px;
+      overflow: hidden;
+      border-radius: 5px;
+    }
+
+    .contact-detail {
+      width: 60%;
+      display: flex;
+      color: white;
+      justify-content: space-between;
+      margin: 0 auto 50px;
+      text-wrap: wrap;
+      word-spacing: 10px;
+      text-align: left;
+
+      label{
+        font-weight: bold;
+      }
+
+      .first-column {
+        display: flex;
+        width: 500px;
+        margin-left: 25px;
+
+        #address {
+          margin-left: 30px;
+        }
+      }
+
+      .second-column {
+        width: 500px;
+        display: grid;
+        grid: auto-flow dense / 1fr 3fr;
+        margin-right: 25px;
+
+        div {
+          margin-left: 30px;
+          letter-spacing: 3px;
+        }
+      }
+    }
+
     h3 {
-      position: relative;
+
     }
   }
 }
@@ -290,7 +356,6 @@ export default {
   background: url(../assets/img/weitu_bottom.png) no-repeat center;
   background-size: cover;
 }
-
 
 
 .order {
