@@ -9,14 +9,15 @@
             <div v-if="index%2 === 0" class="company-case company-case-even">
               <div class="company-case-title">
                 <label :for="index">{{ item.title }}</label>
-                <div :id="index" class="case-title-more">
+                <div :id="index" class="case-title-root">
                   <router-link
-                      class="text-decoration"
-                      :to="{ name: 'cpdetail', params: { id: item.title }}"
+                      class="text-decoration case-title-more"
+                      :to="{ name: 'cpdetail', params: { id: item.id }}"
                   >
                     <p>more</p>
-                    <img :src="require('../assets/img/medium-arrow-black.png')"/>
+                    <img :src="require('../assets/img/medium-arrow-black.png')" alt=""/>
                   </router-link>
+
                 </div>
               </div>
               <img :src=item.imgSrc alt="">
@@ -25,10 +26,10 @@
               <img :src=item.imgSrc alt="">
               <div class="company-case-title">
                 <label :for="index">{{ item.title }}</label>
-                <div :id="index" class="case-title-more">
+                <div :id="index" class="case-title-root">
                   <router-link
-                      class="text-decoration"
-                      :to="{ name: 'cpdetail', params: { id: item.title }}"
+                      class="text-decoration case-title-more"
+                      :to="{ name: 'cpdetail', params: { id: item.id }}"
                   >
                     <p>more</p>
                     <img :src="require('../assets/img/medium-arrow-black.png')"/>
@@ -36,7 +37,7 @@
                 </div>
               </div>
             </div>
-            <div class = "company-case-divider"></div>
+            <div class="company-case-divider"></div>
           </div>
         </div>
       </div>
@@ -53,7 +54,7 @@ export default {
     Banner
   },
   props: {
-    casesList:[],
+    casesList: [],
     img: {
       type: String,
       default: require("../assets/img/companyPerformance.png")
@@ -71,6 +72,10 @@ export default {
 * {
   margin: 0;
   padding: 0;
+}
+
+.text-decoration {
+  text-decoration: none;
 }
 
 .content-nav-item {
@@ -120,6 +125,11 @@ export default {
         margin: 0 auto;
       }
 
+      .case-title-root {
+        display: flex;
+        justify-content: center;
+      }
+
       .case-title-more {
         display: flex;
         overflow: hidden;
@@ -127,6 +137,7 @@ export default {
         text-align: center;
         justify-content: center;
         align-items: center;
+        color: black;
 
         img {
           width: 18px;
@@ -144,7 +155,7 @@ export default {
       justify-content: flex-start;
     }
 
-    .company-case-divider{
+    .company-case-divider {
       display: flow;
       width: 100vw;
       height: 2px;
@@ -155,6 +166,8 @@ export default {
       left: 50%;
       transform: translateX(-50%);
     }
+
+
   }
 }
 </style>
