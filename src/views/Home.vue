@@ -21,7 +21,7 @@
         </ul>
         <div class="bottom-page">
           <p>more</p>
-          <img src="static/img/medium-arrow.png"/>
+          <img src="../assets/img/medium-arrow.png"/>
         </div>
       </div>
 
