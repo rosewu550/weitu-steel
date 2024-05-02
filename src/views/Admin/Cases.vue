@@ -97,7 +97,7 @@ export default {
     },
     loadData() {
       this.loading = true;
-      this.$http
+      this.axios
         .get("Cases/GetCasesAll")
         .then(response => {
           window.console.log(response);
@@ -129,7 +129,7 @@ export default {
       if (!this.formData.Id) {
         // ID 无效时 视为新增
         this.loading = true;
-        this.$http
+        this.axios
           .post("Cases/CreateCases", this.formData, this.options)
           .then(response => {
             this.loading = false;
@@ -149,7 +149,7 @@ export default {
           });
       } else {
         this.loading = true;
-        this.$http
+        this.axios
           .post("Cases/ModifiedCases", this.formData, this.options)
           .then(response => {
             this.loading = false;
@@ -185,7 +185,7 @@ export default {
           // 已确认删除
           // 调接口删除
           this.loading = true;
-          this.$http
+          this.axios
             .post(`Cases/DeleteCases?id=${row.Id}`, null, this.options)
             .then(response => {
               this.loading = false;

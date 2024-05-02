@@ -110,7 +110,7 @@ export default {
     },
     loadData() {
       this.loading = true;
-      this.$http
+      this.axios
         .get("News/GetNewsAll?type=0&num=10")
         .then(response => {
           // window.console.log(response);
@@ -138,7 +138,7 @@ export default {
     handleCreateOrModify() {
       if (!this.formData.Id) {
         this.loading = true;
-        this.$http
+        this.axios
           .post("News/CreateNews", this.formData, this.options)
           .then(response => {
             window.console.log(response);
@@ -158,7 +158,7 @@ export default {
           });
       } else {
         this.loading = true;
-        this.$http
+        this.axios
           .post("News/ModifiedNews", this.formData, this.options)
           .then(response => {
             this.loading = false;
@@ -195,7 +195,7 @@ export default {
           // 已确认删除
           // 调接口删除
           this.loading = true;
-          this.$http
+          this.axios
             .post(`News/DeleteNews?id=${row.Id}`, null, this.options)
             .then(response => {
               this.loading = false;

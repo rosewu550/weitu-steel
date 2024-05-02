@@ -147,7 +147,7 @@ export default {
     Banner
   },
   created() {
-    this.$http
+    this.axios
       .get(
         "DataDictionary/GetDataDictionaryAll?key=%E4%BA%A7%E5%93%81%E8%A7%86%E9%A2%91%E9%93%BE%E6%8E%A5"
       )

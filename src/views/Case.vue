@@ -40,7 +40,7 @@ export default {
   },
   mounted() {
     // window.console.log("case");
-    this.$http
+    this.axios
       .get("Cases/GetCasesAll")
       .then(response => {
         //console.log(response);

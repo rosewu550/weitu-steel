@@ -5,9 +5,8 @@
       <div class="news-section-content">
 
         <div class="content-nav-item">
-
           <div class="item-list" v-for="(item,index) in casesList" :key="index">
-            <div v-if="index%2 === 0" class="company-case-even">
+            <div v-if="index%2 === 0" class="company-case company-case-even">
               <div class="company-case-title">
                 <label :for="index">{{ item.title }}</label>
                 <div :id="index" class="case-title-more">
@@ -15,15 +14,19 @@
                   <img :src="require('../assets/img/medium-arrow-black.png')"/>
                 </div>
               </div>
-              <img :src="item.imgSrc" alt="">
+              <img :src=item.imgSrc alt="">
             </div>
-            <div v-else class="company-case-odd">
-              <img :src="item.imgSrc" alt="">
+            <div v-else class="company-case company-case-odd">
+              <img :src=item.imgSrc alt="">
               <div class="company-case-title">
                 <label :for="index">{{ item.title }}</label>
-                <div :id="index">more</div>
+                <div :id="index" class="case-title-more">
+                  <p>more</p>
+                  <img :src="require('../assets/img/medium-arrow-black.png')"/>
+                </div>
               </div>
             </div>
+            <div class = "company-case-divider"></div>
           </div>
         </div>
 
@@ -31,38 +34,28 @@
       </div>
     </div>
   </div>
-  </div>
 </template>
 
 <script>
 import Banner from "../components/Banner";
+import ca from "element-ui/src/locale/lang/ca";
 
 export default {
-  name: "news",
+  name: "company-performance",
   components: {
     Banner
   },
   props: {
+    casesList:[],
     img: {
       type: String,
       default: require("../assets/img/companyPerformance.png")
     }
   },
-  data() {
-    return {
-      casesList: [
-        {
-          id: 1,
-          title: "Capital Airport A380 Hangar Project",
-          imgSrc: require("../assets/img/case/airport.png"),
-        },
-        {
-          id: 2,
-          title: "No. 218 Test Flight Delivery Hangar Project for Shanghai Aircraft Manufacturing Factory",
-          imgSrc: require("../assets/img/case/aircraft factory.png"),
-        }
-      ],
-    };
+  mounted() {
+    this.$http.get('static/json/companyCase.json').then(response => {
+      this.casesList = response.data;
+    })
   }
 };
 </script>
@@ -73,166 +66,88 @@ export default {
   padding: 0;
 }
 
-.news {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  overflow: hidden;
+.content-nav-item {
+  width: 1070px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  //border: 1px solid blue;
 
-  &-section {
+  .item-list {
     width: 100%;
-    //height: 1600px;
-    &-content {
-      width: 1240px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding-top: 20vh;
+
+
+    .company-case {
+      width: 100%;
+      height: 100%;
+      display: flex;
       margin: 0 auto;
+      text-align: center;
 
-      .content-nav {
-        width: 400px;
-        height: 55px;
+      img {
+        width: 450px;
+        height: 280px;
+      }
+    }
+
+    .company-case-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 30px 0;
+      width: 100%;
+      height: 220px;
+
+      label {
+        width: 50%;
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
         margin: 0 auto;
-        display: flex;
-        align-items: center;
-        position: relative;
-        bottom: 30px;
-        border: 1px solid red;
-
-        &-btn {
-          width: 50%;
-          height: 100%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          background-color: #e4e4e4;
-          transition: all 0.2s;
-        }
-
-        .content-nav-active {
-          background-color: red;
-          color: #fff;
-        }
       }
 
-      .content-nav-item {
-        width: 1070px;
-        margin: 0 auto;
+      .case-title-more {
         display: flex;
-        justify-content: flex-start;
-        flex-wrap: wrap;
-        //border: 1px solid blue;
+        overflow: hidden;
+        font-size: 25px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
 
-        .item-list {
-          width: 100%;
-          height: 70vh;
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-
-          .company-case-even {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: flex-end;
-            margin: 155px auto;
-            text-align: center;
-
-            .company-case-title {
-              display: flex;
-              flex-direction: column;
-              justify-content: space-between;
-              margin: 30px 0;
-              width: 100%;
-              height: 220px;
-
-              label {
-                width: 50%;
-                font-weight: bold;
-                font-size: 25px;
-                text-align: center;
-                margin: 0 auto;
-              }
-
-              .case-title-more {
-                display: flex;
-                overflow: hidden;
-                font-size: 25px;
-                text-align: center;
-                justify-content: center;
-                align-items: center;
-
-                img {
-                  width: 18px;
-                  height: 14px;
-                  margin: 5px 0 0 10px;
-                }
-              }
-
-            }
-
-            img {
-              width: 450px;
-              height: 280px;
-            }
-          }
-
-          .company-case-odd {
-            display: flex;
-            //justify-content: space-between;
-            width: 100%;
-            height: 100%;
-
-          }
-
-          &-title {
-            width: 300px;
-            height: 60px;
-            font-size: 22px;
-            padding: 0 10px;
-            margin: 20px 0;
-            overflow: hidden;
-            text-overflow: ellipsis;
-          }
-
-          &-content {
-            width: 273px;
-            height: 100px;
-            font-size: 14px;
-            color: gray;
-
-            // 文本长度处理 begin
-            overflow: hidden;
-            text-overflow: ellipsis;
-            display: -webkit-box;
-            -webkit-line-clamp: 5;
-            -webkit-box-orient: vertical;
-            white-space: normal !important;
-            word-wrap: break-word;
-            // 文本长度处理 ending
-          }
-
-          &-more {
-            width: 273px;
-            padding-top: 20px;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-
-            img {
-              width: 12px;
-              height: 12px;
-            }
-
-            span {
-              color: #e13834;
-              padding: 0 5px;
-            }
-          }
+        img {
+          width: 18px;
+          height: 14px;
+          margin: 5px 0 0 10px;
         }
       }
     }
-  }
 
-  .text-decoration {
-    text-decoration: none;
+    .company-case-even {
+      justify-content: flex-end;
+    }
+
+    .company-case-odd {
+      justify-content: flex-start;
+    }
+
+    .company-case-divider{
+      display: flow;
+      width: 100vw;
+      height: 2px;
+      background: #D9D9D9;
+      //border: 1px solid #D9D9D9;
+      border-radius: 10px;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+    }
   }
 }
 </style>

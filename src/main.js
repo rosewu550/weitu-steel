@@ -2,6 +2,8 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import axios from 'axios'
+import VueResource from 'vue-resource'
+Vue.use(VueResource);
 
 import ElementUI from 'element-ui';
 import '@/assets/font/font.css';
@@ -36,7 +38,7 @@ axios.defaults.timeout = 5000
 //设置api地址
 //全局定义axios
 axios.defaults.baseURL = 'http://shkjgw.shkjem.com/api/'
-Vue.prototype.$http = axios
+Vue.prototype.axios = axios
 
 // 图片服务器地址
 Vue.prototype.imgserver = 'http://shkjgw.shkjem.com/'

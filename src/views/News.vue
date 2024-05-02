@@ -59,7 +59,7 @@ export default {
   methods: {
     loadData() {
       this.loading = true;
-      this.$http
+      this.axios
         .get(`News?type=${this.newstype}&num=6`)
         .then(response => {
           //console.log(response);

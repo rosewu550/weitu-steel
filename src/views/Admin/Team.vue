@@ -90,7 +90,7 @@ export default {
     },
     loadData() {
       this.loading = true;
-      this.$http
+      this.axios
         .get("Team/GetTeamAll")
         .then(response => {
           window.console.log(response);
@@ -120,7 +120,7 @@ export default {
       if (!this.formData.Id) {
         // ID 无效时 视为新增
         this.loading = true;
-        this.$http
+        this.axios
           .post("Team/CreateTeam", this.formData, this.options)
           .then(response => {
             this.loading = false;
@@ -140,7 +140,7 @@ export default {
           });
       } else {
         this.loading = true;
-        this.$http
+        this.axios
           .post("Team/ModifiedTeam", this.formData, this.options)
           .then(response => {
             this.loading = false;
@@ -176,7 +176,7 @@ export default {
           // 已确认删除
           // 调接口删除
           this.loading = true;
-          this.$http
+          this.axios
             .post(`Team/DeleteTeam?id=${row.Id}`, null, this.options)
             .then(response => {
               this.loading = false;

@@ -57,7 +57,7 @@ export default {
     login() {
       this.$refs.lform.validate(valid => {
         if (valid) {
-          this.$http
+          this.axios
             .get(
               `User/Login?strUser=${this.loginform.name}&strPwd=${this.loginform.pass}`
             )

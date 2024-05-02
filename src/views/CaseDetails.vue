@@ -33,7 +33,7 @@ export default {
   },
   methods: {
     loadData() {
-      this.$http
+      this.axios
         .get(`Cases/GetCasesById/${this.pid}`)
         .then(response => {
           //console.log(response);

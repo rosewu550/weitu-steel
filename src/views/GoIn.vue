@@ -146,15 +146,15 @@ export default {
     };
   },
   mounted() {
-    this.$http
+    this.axios
       .all([
-        this.$http.get("Honor/GetHonorAll"),
-        this.$http.get("Enterprise/GetEnterpriseAll"),
-        this.$http.get(`Team/GetTeamAll`),
-        this.$http.get(`Course/GetCourseAll`)
+        this.axios.get("Honor/GetHonorAll"),
+        this.axios.get("Enterprise/GetEnterpriseAll"),
+        this.axios.get(`Team/GetTeamAll`),
+        this.axios.get(`Course/GetCourseAll`)
       ])
       .then(
-        this.$http.spread(
+        this.axios.spread(
           (responseHonor, responseEnterprise, responseTeam, responseCourse) => {
             this.honorList = responseHonor.data;
             this.partnerImg = responseEnterprise.data;

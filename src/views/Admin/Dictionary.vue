@@ -69,7 +69,7 @@ export default {
   methods: {
     loadData() {
       this.loading = true;
-      this.$http
+      this.axios
         .get(`DataDictionary/GetDataDictionaryAll?key=`)
         .then(response => {
           window.console.log(response);
@@ -99,7 +99,7 @@ export default {
       if (!this.formData.Id) {
         // ID 无效时 视为新增
         this.loading = true;
-        this.$http
+        this.axios
           .post(
             "DataDictionary/CreateDataDictionary",
             this.formData,
@@ -123,7 +123,7 @@ export default {
           });
       } else {
         this.loading = true;
-        this.$http
+        this.axios
           .post(
             "DataDictionary/ModifiedDataDictionary",
             this.formData,
@@ -163,7 +163,7 @@ export default {
           // 已确认删除
           // 调接口删除
           this.loading = true;
-          this.$http
+          this.axios
             .post(
               `DataDictionary/DeleteDataDictionary?id=${row.Id}`,
               null,

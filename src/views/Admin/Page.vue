@@ -49,7 +49,7 @@ export default {
   methods: {
     onSelect() {
       this.loading = true;
-      this.$http
+      this.axios
         .get(
           `https://localhost:5001/api/User/GetUsers?name=${this.formInline.name}&age=${this.formInline.age}&pageIndex=${this.pageIndex}&pageSize=${this.pageSize}`
         )

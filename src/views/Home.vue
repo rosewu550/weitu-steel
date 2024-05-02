@@ -21,7 +21,7 @@
         </ul>
         <div class="bottom-page">
           <p>more</p>
-          <img src="../assets/img/medium-arrow.png"/>
+          <img src="static/img/medium-arrow.png"/>
         </div>
       </div>
 
@@ -69,32 +69,32 @@ export default {
       caseList: [
         {
           Id: 1,
-          imgSrc: require("../assets/img/case/airport.png"),
+          imgSrc: "static/img/case/airport.png",
           title: "Aircraft Maintenance Hangar and Annex Construction Project of China Eastern Airlines Kunming New Airport Base"
         },
         {
           Id: 2,
-          imgSrc: require("../assets/img/case/park.png"),
+          imgSrc: "static/img/case/park.png",
           title: "Changsha Xingnasi Supply Chain Management Co., Ltd. Changsha Smart Cold Chain Industrial Park Project",
         },
         {
           Id: 3,
-          imgSrc: require("../assets/img/case/high.png"),
+          imgSrc: "static/img/case/high.png",
           title: "Suzhou Moon Bay International Center Project"
         },
         {
           Id: 4,
-          imgSrc: require("../assets/img/case/shanghai.png"),
+          imgSrc: "static/img/case/shanghai.png",
           title: "Circular Racetrack Project of Jaguar Land Rover",
         },
         {
           Id: 5,
-          imgSrc: require("../assets/img/case/football.png"),
+          imgSrc: "static/img/case/football.png",
           title: "Algeria Sports Stadium"
         },
         {
           Id: 6,
-          imgSrc: require("../assets/img/case/single.png"),
+          imgSrc: "static/img/case/single.png",
           title: "Chengdu Sancha Lake Changdao International Tourism Resort Project"
         },
       ],

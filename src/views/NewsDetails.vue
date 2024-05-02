@@ -34,7 +34,7 @@ export default {
   },
   methods: {
     loadData() {
-      this.$http
+      this.axios
         .get(`News/GetNewsById/${this.pid}`)
         .then(response => {
           //console.log(response);
