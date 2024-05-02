@@ -3,7 +3,16 @@
     <banner title="COMPANY PERFORMANCE" :img="img"></banner>
     <div class="case-detail">
       <div class="case-detail-item">
-        <img :src=caseDetailMap.imgSrc alt="">
+
+        <div class="case-detail-swiper">
+          <el-carousel height="600px" interval=5000 indicator-position="outside">
+            <el-carousel-item v-for="item in caseDetailMap.imgSrcArr" :key="item">
+              <img :src=item alt="">
+            </el-carousel-item>
+          </el-carousel>
+        </div>
+
+
         <p class="item-title">{{ caseDetailMap.title }}</p>
         <p class="item-content">Project location: {{ caseDetailMap.projectLocation }}</p>
         <p class="item-content">Construction unit: {{ caseDetailMap.constructionUnit }}</p>
@@ -20,7 +29,7 @@ import Banner from "../components/Banner";
 export default {
   name: "cpdetail",
   components: {
-    Banner
+    Banner,
   },
   props: {
     img: {
@@ -45,7 +54,7 @@ export default {
           return caseMap;
         }
       })[0];
-    })
+    });
   }
 };
 </script>
@@ -75,10 +84,15 @@ export default {
   align-items: center;
   text-align: left;
 
-  img {
+  .case-detail-swiper {
     width: 60%;
-    height: 600px;
     padding-bottom: 10vh;
+  }
+
+  img {
+    width: 100%;
+    height: 600px;
+
   }
 
   .item-title {
@@ -92,6 +106,22 @@ export default {
     width: 60%;
     font-size: 20px;
   }
+}
+
+.el-carousel__item h3 {
+  color: #475669;
+  font-size: 14px;
+  opacity: 0.75;
+  line-height: 150px;
+  margin: 0;
+}
+
+.el-carousel__item:nth-child(2n) {
+  background-color: #99a9bf;
+}
+
+.el-carousel__item:nth-child(2n+1) {
+  background-color: #d3dce6;
 }
 
 </style>

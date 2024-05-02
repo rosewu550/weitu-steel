@@ -6,7 +6,12 @@
     "projectLocation": "Shanghai Dachang Airbase",
     "constructionUnit": "Shanghai Aircraft Manufacturing Factory",
     "projectScope": "steel structure engineering and enclosure system",
-    "projectScale": "building area/steel structure tons - approximately 2,300 m"
+    "projectScale": "building area/steel structure tons - approximately 2,300 m",
+    "imgSrcArr": [
+      "static/img/case/no1.png",
+      "static/img/case/no1.png",
+      "static/img/case/no1.png"
+    ]
   },
   {
     "title": "Capital Airport A380 Hangar Project",
@@ -15,7 +20,12 @@
     "projectLocation": "Beijing Capital International Airport",
     "constructionUnit": "Beijing Aircraft Maintenance Engineering Co., Ltd.",
     "projectScope": "Metal roofing and wall enclosure system",
-    "projectScale": "building area/steel structure tons - approximately 60,000 m"
+    "projectScale": "building area/steel structure tons - approximately 60,000 m",
+    "imgSrcArr": [
+      "static/img/case/no2.png",
+      "static/img/case/no2.png",
+      "static/img/case/no2.png"
+    ]
   },
   {
     "title": "Aircraft Maintenance Hangar and Annex Construction Project of China Eastern Airlines Kunming New Airport Base",
@@ -24,7 +34,12 @@
     "projectLocation": "Kunming Changshui International Airport",
     "constructionUnit": "China Eastern Airlines",
     "projectScope": "Metal roofing and wall enclosure system",
-    "projectScale": "building area/steel structure tons - approximately 16,000 m"
+    "projectScale": "building area/steel structure tons - approximately 16,000 m",
+    "imgSrcArr": [
+      "static/img/case/airport.png",
+      "static/img/case/airport.png",
+      "static/img/case/airport.png"
+    ]
   },
   {
     "title": "Hangar and Operations Control Center Project of Shenzhen Donghai Aviation Industry Center",
@@ -33,7 +48,12 @@
     "projectLocation": "Shenzhen Bao'an International Airport",
     "constructionUnit": "Shenzhen Donghai Airlines",
     "projectScope": "Metal roofing and wall enclosure system",
-    "projectScale": "building area/steel structure tons - approximately 12,000 m"
+    "projectScale": "building area/steel structure tons - approximately 12,000 m",
+    "imgSrcArr": [
+      "static/img/case/no3.png",
+      "static/img/case/no3.png",
+      "static/img/case/no3.png"
+    ]
   },
   {
     "title": "Volkswagen Exhibition Booth at Automobile Shanghai",
@@ -42,7 +62,12 @@
     "projectLocation": "Shanghai New International Expo Center",
     "constructionUnit": "Volkswagen (China) Investment Co. Ltd.",
     "projectScope": "Steel structure works",
-    "projectScale": "building area/steel structure tons - approximately 60 tons"
+    "projectScale": "building area/steel structure tons - approximately 60 tons",
+    "imgSrcArr": [
+      "static/img/case/no4.png",
+      "static/img/case/no4.png",
+      "static/img/case/no4.png"
+    ]
   },
   {
     "title": "Brilliance Auto Exhibition Booth at Automobile Shanghai",
@@ -51,7 +76,12 @@
     "projectLocation": "Shanghai National Convention and Exhibition Center",
     "constructionUnit": "Brilliance Auto ",
     "projectScope": "Steel structure works",
-    "projectScale": "building area/steel structure tons - 40 tons"
+    "projectScale": "building area/steel structure tons - 40 tons",
+    "imgSrcArr": [
+      "static/img/case/no5.png",
+      "static/img/case/no5.png",
+      "static/img/case/no5.png"
+    ]
   },
   {
     "title": "JMC Exhibition Booth at Automobile Shanghai",
@@ -60,7 +90,12 @@
     "projectLocation": "Shanghai National Convention and Exhibition Center",
     "constructionUnit": "JMC",
     "projectScope": "Steel structure works",
-    "projectScale": "building area/steel structure tons - approximately 60 tons"
+    "projectScale": "building area/steel structure tons - approximately 60 tons",
+    "imgSrcArr": [
+      "static/img/case/no6.png",
+      "static/img/case/no6.png",
+      "static/img/case/no6.png"
+    ]
   },
   {
     "title": "Circular Racetrack Project of Jaguar Land Rover",
@@ -69,7 +104,12 @@
     "projectLocation": "The North Bund in Shanghai",
     "constructionUnit": "Jaguar Land Rover ",
     "projectScope": "Steel structure installation ",
-    "projectScale": "building area/steel structure tons - 90 tons"
+    "projectScale": "building area/steel structure tons - 90 tons",
+    "imgSrcArr": [
+      "static/img/case/no7.png",
+      "static/img/case/no7.png",
+      "static/img/case/no7.png"
+    ]
   },
   {
     "title": "New Zealand Pavilion at Shanghai World Expo",
@@ -78,7 +118,12 @@
     "projectLocation": "Shanghai World Expo Park",
     "constructionUnit": "New Zealand",
     "projectScope": "Metal roofing and wall enclosure system",
-    "projectScale": "building area/steel structure tons - approximately 1,200 m"
+    "projectScale": "building area/steel structure tons - approximately 1,200 m",
+    "imgSrcArr": [
+      "static/img/case/no8.png",
+      "static/img/case/no8.png",
+      "static/img/case/no8.png"
+    ]
   },
   {
     "title": "Baotou Stadium Project",
@@ -87,7 +132,12 @@
     "projectLocation": "Baotou city",
     "constructionUnit": "Baotou city government",
     "projectScope": "Metal roof enclosure system",
-    "projectScale": "building area/steel structure tons - approximately 9,000 m"
+    "projectScale": "building area/steel structure tons - approximately 9,000 m",
+    "imgSrcArr": [
+      "static/img/case/no9.png",
+      "static/img/case/no9.png",
+      "static/img/case/no9.png"
+    ]
   },
   {
     "title": "Tianyu Tourism Resort Water Park Project at Taishan Salt Sea Bath International Conference Center",
@@ -96,7 +146,12 @@
     "projectLocation": "Tai'an City, Shandong Province",
     "constructionUnit": "Shandong Huaxin Construction Engineering Co., Ltd. ",
     "projectScope": "Metal roof enclosure system",
-    "projectScale": "building area/steel structure tons - approximately 20000 tons"
+    "projectScale": "building area/steel structure tons - approximately 20000 tons",
+    "imgSrcArr": [
+      "static/img/case/no10.png",
+      "static/img/case/no10.png",
+      "static/img/case/no10.png"
+    ]
   },
   {
     "title": "Chengdu Sancha Lake Changdao International Tourism Resort Project",
@@ -105,7 +160,12 @@
     "projectLocation": "Xinmin Town, Chengdu Hi-Tech Industrial Development Zone",
     "constructionUnit": "Sichuan Sancha Lake Changdao International Tourism Resort Co., Ltd.",
     "projectScope": "Steel structure works",
-    "projectScale": "building area/steel structure tons - approximately 20,000 m"
+    "projectScale": "building area/steel structure tons - approximately 20,000 m",
+    "imgSrcArr": [
+      "static/img/case/no11.png",
+      "static/img/case/no11.png",
+      "static/img/case/no11.png"
+    ]
   },
   {
     "title": "Yanqi Lake International Convention & Exhibition Center Project",
@@ -114,7 +174,12 @@
     "projectLocation": "Beijing Yanqi Lake International Convention & Exhibition Center",
     "constructionUnit": "Beijing Beikong International Huidu Real Estate Development Co., Ltd. ",
     "projectScope": "Metal roof enclosure system",
-    "projectScale": "building area/steel structure tons - approximately 9,000 m"
+    "projectScale": "building area/steel structure tons - approximately 9,000 m",
+    "imgSrcArr": [
+      "static/img/case/no12.png",
+      "static/img/case/no12.png",
+      "static/img/case/no12.png"
+    ]
   },
   {
     "title": "Xining Panda Pavilion Project",
@@ -123,7 +188,12 @@
     "projectLocation": "Xining Wildlife Park",
     "constructionUnit": "Xining Cultural Tourism Development Investment Co., Ltd.",
     "projectScope": "Metal roof enclosure system",
-    "projectScale": "building area/steel structure tons - 4,617 m"
+    "projectScale": "building area/steel structure tons - 4,617 m",
+    "imgSrcArr": [
+      "static/img/case/no13.png",
+      "static/img/case/no13.png",
+      "static/img/case/no13.png"
+    ]
   },
   {
     "title": "New Project of Yizhuang ABC Digital Manor",
@@ -132,7 +202,12 @@
     "projectLocation": "Yizhuang, Beijing",
     "constructionUnit": "China Enterprise Grow Force Technology Co., Ltd.",
     "projectScope": "Steel structure works",
-    "projectScale": "building area/steel structure tons - approximately 880 tons"
+    "projectScale": "building area/steel structure tons - approximately 880 tons",
+    "imgSrcArr": [
+      "static/img/case/no14.png",
+      "static/img/case/no14.png",
+      "static/img/case/no14.png"
+    ]
   },
   {
     "title": "Wenzhou Binjiang Business District Plot 18-02 Modern Tower Project\n",
@@ -141,7 +216,12 @@
     "projectLocation": "Lucheng District, Wenzhou City",
     "constructionUnit": "Wenzhou Modern Service Investment Group Co., Ltd.",
     "projectScope": "Steel structure works",
-    "projectScale": "building area/steel structure tons - approximately 3600 tons"
+    "projectScale": "building area/steel structure tons - approximately 3600 tons",
+    "imgSrcArr": [
+      "static/img/case/no15.png",
+      "static/img/case/no15.png",
+      "static/img/case/no15.png"
+    ]
   },
   {
     "title": "Steel Structure Project - Additional Floor Construction for the Comprehensive Building of Shanghai Baoshan Hospital of Integrated Traditional Chinese and Western Medicine",
@@ -150,7 +230,12 @@
     "projectLocation": "Baoshan District, Shanghai",
     "constructionUnit": "Shanghai Baoshan Hospital of Integrated Traditional Chinese and Western Medicine",
     "projectScope": "Steel structure works",
-    "projectScale": "building area/steel structure tons - approximately 200 tons"
+    "projectScale": "building area/steel structure tons - approximately 200 tons",
+    "imgSrcArr": [
+      "static/img/case/no16.png",
+      "static/img/case/no16.png",
+      "static/img/case/no16.png"
+    ]
   },
   {
     "title": "Longxi Port Project in Huzhou",
@@ -159,7 +244,12 @@
     "projectLocation": "Huzhou City, Zhejiang",
     "constructionUnit": "Huzhou Jiaheng Real Estate Co., Ltd.",
     "projectScope": "Steel structure works",
-    "projectScale": "building area/steel structure tons - 2200 tons"
+    "projectScale": "building area/steel structure tons - 2200 tons",
+    "imgSrcArr": [
+      "static/img/case/no17.png",
+      "static/img/case/no17.png",
+      "static/img/case/no17.png"
+    ]
   },
   {
     "title": "Beijing's Sub-center Housing Project (Block 0701) Home Center Parcel Second Section",
@@ -168,7 +258,12 @@
     "projectLocation": "Songzhuang Town, Tongzhou District, Beijing",
     "constructionUnit": "Beijing Affordable Housing Center Co., Ltd.",
     "projectScope": "Steel structure installation",
-    "projectScale": "building area/steel structure tons - approximately 10000 tons"
+    "projectScale": "building area/steel structure tons - approximately 10000 tons",
+    "imgSrcArr": [
+      "static/img/case/image73.jpeg",
+      "static/img/case/image73.jpeg",
+      "static/img/case/image73.jpeg"
+    ]
   },
   {
     "title": "Steel Structure Engineering of Taopu Smart City Plot 606 Commercial and Office Project",
@@ -177,7 +272,12 @@
     "projectLocation": "Taopu, Putuo District, Shanghai",
     "constructionUnit": "Shanghai Ronglong Real Estate Co., Ltd.",
     "projectScope": "Steel structure installation",
-    "projectScale": "building area/steel structure tons - approximately 7400 tons"
+    "projectScale": "building area/steel structure tons - approximately 7400 tons",
+    "imgSrcArr": [
+      "static/img/case/image74.jpeg",
+      "static/img/case/image74.jpeg",
+      "static/img/case/image74.jpeg"
+    ]
   },
   {
     "title": "Suzhou Moon Bay International Center Project",
@@ -186,7 +286,12 @@
     "projectLocation": "Suzhou Industrial Park ",
     "constructionUnit": "Suzhou Industrial Park Real Estate Operations and Management Company",
     "projectScope": "Steel structure for office towers and commercial podiums",
-    "projectScale": "building area/steel structure tons - approximately 400 tons"
+    "projectScale": "building area/steel structure tons - approximately 400 tons",
+    "imgSrcArr": [
+      "static/img/case/image76.jpeg",
+      "static/img/case/image76.jpeg",
+      "static/img/case/image76.jpeg"
+    ]
   },
   {
     "title": "Lianyungang Dongfang Haiyi Haoyuan Project",
@@ -195,7 +300,12 @@
     "projectLocation": "Lianyungang City",
     "constructionUnit": "Lianyungang Yuantong Real Estate Development Co., Ltd.",
     "projectScope": "Steel structure works",
-    "projectScale": "building area/steel structure tons - 1800 tons"
+    "projectScale": "building area/steel structure tons - 1800 tons",
+    "imgSrcArr": [
+      "static/img/case/image78.jpeg",
+      "static/img/case/image78.jpeg",
+      "static/img/case/image78.jpeg"
+    ]
   },
   {
     "title": "Changsha Xingnasi Supply Chain Management Co., Ltd. Changsha Smart Cold Chain Industrial Park Project",
@@ -204,7 +314,12 @@
     "projectLocation": "Changsha Economic Development Zone, Changsha County",
     "constructionUnit": "Changsha Xingnasi Supply Chain Management Co., Ltd.",
     "projectScope": "Concrete column mold, precast concrete beams, and structural installation",
-    "projectScale": "building area/steel structure tons - approximately 108,955 m"
+    "projectScale": "building area/steel structure tons - approximately 108,955 m",
+    "imgSrcArr": [
+      "static/img/case/image80.jpeg",
+      "static/img/case/image80.jpeg",
+      "static/img/case/image80.jpeg"
+    ]
   },
   {
     "title": "Yixin Electronic Commerce Operations and Delivery Distribution Center Project",
@@ -213,7 +328,12 @@
     "projectLocation": "Gu'an County, Langfang City, Hebei Province",
     "constructionUnit": "Yixin (Langfang) Supply Chain Management Co., Ltd.",
     "projectScope": "Precast concrete beams and steel beam installation",
-    "projectScale": "building area/steel structure tons - approximately 108,144 m"
+    "projectScale": "building area/steel structure tons - approximately 108,144 m",
+    "imgSrcArr": [
+      "static/img/case/image82.jpeg",
+      "static/img/case/image82.jpeg",
+      "static/img/case/image82.jpeg"
+    ]
   },
   {
     "title": "Plant and Auxiliary Building Wall Repair Project of GEMÜ Valve (China) Co., Ltd.",
@@ -222,7 +342,12 @@
     "projectLocation": "Minhang District, Shanghai",
     "constructionUnit": "GEM Valve (China) Co., Ltd.",
     "projectScope": "Wall enclosure system",
-    "projectScale": "Building area/steel structure tons - 4,237 m"
+    "projectScale": "Building area/steel structure tons - 4,237 m",
+    "imgSrcArr": [
+      "static/img/case/image86.jpeg",
+      "static/img/case/image86.jpeg",
+      "static/img/case/image86.jpeg"
+    ]
   },
   {
     "title": "New Factory Project Kunshan Quanya Guanjun Environmental Protection Technology Co., Ltd.",
@@ -231,7 +356,12 @@
     "projectLocation": "Kunshan City, Jiangsu Province",
     "constructionUnit": "Kunshan Shengya Flexible Electronic Materials Co., Ltd.",
     "projectScope": "steel structure engineering and enclosure system",
-    "projectScale": "building area/steel structure tons - approximately 800 tons"
+    "projectScale": "building area/steel structure tons - approximately 800 tons",
+    "imgSrcArr": [
+      "static/img/case/image84.jpg",
+      "static/img/case/image84.jpg",
+      "static/img/case/image84.jpg"
+    ]
   },
   {
     "title": "200-Ton Annual Cold Glue Expansion and Technological Improvement Project of Zhejiang DSM Zhongken",
@@ -240,7 +370,12 @@
     "projectLocation": "Gaoqiao Town, Tongxiang City, Zhejiang Province",
     "constructionUnit": "Zhejiang DSM Zhongken Biotechnology Co., Ltd.",
     "projectScope": "steel structure engineering and enclosure system",
-    "projectScale": "Building area/steel structure tons - Approximately 2,000 m"
+    "projectScale": "Building area/steel structure tons - Approximately 2,000 m",
+    "imgSrcArr": [
+      "static/img/case/image88.png",
+      "static/img/case/image88.png",
+      "static/img/case/image88.png"
+    ]
   },
   {
     "title": "New Factory Project of Hangzhou YOKOHAMA Rubber Co., Ltd.",
@@ -249,7 +384,12 @@
     "projectLocation": "Hangzhou Economic and Technological Development Zone",
     "constructionUnit": "Hangzhou YOKOHAMA Rubber Co., Ltd. ",
     "projectScope": "steel structure engineering and enclosure system",
-    "projectScale": "building area/steel structure tons - approximately 30,000 m"
+    "projectScale": "building area/steel structure tons - approximately 30,000 m",
+    "imgSrcArr": [
+      "static/img/case/image90.png",
+      "static/img/case/image90.png",
+      "static/img/case/image90.png"
+    ]
   },
   {
     "title": "New Logistics Warehouse Project of Guangdong Litai Pharmaceutical Co., Ltd.",
@@ -258,7 +398,12 @@
     "projectLocation": "Puning City, Guangdong Province",
     "constructionUnit": "Guangdong Litai Pharmaceutical Co., Ltd.",
     "projectScope": "steel structure engineering and enclosure system",
-    "projectScale": "building area/steel structure tons - approximately 20,000 m"
+    "projectScale": "building area/steel structure tons - approximately 20,000 m",
+    "imgSrcArr": [
+      "static/img/case/image92.jpeg",
+      "static/img/case/image92.jpeg",
+      "static/img/case/image92.jpeg"
+    ]
   },
   {
     "title": "Relocation and Expansion Project of Utz Materials Handling (Suzhou) Co. Ltd.First Phase",
@@ -267,7 +412,12 @@
     "projectLocation": "Jianlin Road, Suzhou High-tech Zone",
     "constructionUnit": "Utz Materials Handling (Suzhou) Co. Ltd.",
     "projectScope": "steel structure engineering and enclosure system",
-    "projectScale": "building area/steel structure tons - approximately 9,000 m"
+    "projectScale": "building area/steel structure tons - approximately 9,000 m",
+    "imgSrcArr": [
+      "static/img/case/image94.jpeg",
+      "static/img/case/image94.jpeg",
+      "static/img/case/image94.jpeg"
+    ]
   },
   {
     "title": "Dragon Plant Project of Henkel",
@@ -276,7 +426,12 @@
     "projectLocation": "Shanghai Chemical Industrial Zone",
     "constructionUnit": "Henkel Chemical Technologies (Shanghai) Co., Ltd.",
     "projectScope": "Metal Roof and Wall Enclosure System (Partial)",
-    "projectScale": "building area/steel structure tons - approximately 2,600 m"
+    "projectScale": "building area/steel structure tons - approximately 2,600 m",
+    "imgSrcArr": [
+      "static/img/case/image96.png",
+      "static/img/case/image96.png",
+      "static/img/case/image96.png"
+    ]
   },
   {
     "title": "Shanghai Changhong Road No. 428 and No. 429 Industrial Building Renovation and Expansion Project",
@@ -285,7 +440,12 @@
     "projectLocation": "Baoshan District, Shanghai",
     "constructionUnit": "Shanghai Zhenhe Investment Management Co., Ltd.",
     "projectScope": "steel structure engineering and enclosure system",
-    "projectScale": "Building area/steel structure tons - 37,390 m"
+    "projectScale": "Building area/steel structure tons - 37,390 m",
+    "imgSrcArr": [
+      "static/img/case/image98.jpeg",
+      "static/img/case/image98.jpeg",
+      "static/img/case/image98.jpeg"
+    ]
   },
   {
     "title": "New Plant Project of Akzo Nobel Powder Coatings (Chengdu) Co., Ltd.",
@@ -294,7 +454,12 @@
     "projectLocation": "Longquanyi District, Chengdu City",
     "constructionUnit": "Akzo Nobel Powder Coatings (Chengdu) Co., Ltd. New Plant Project",
     "projectScope": "steel structure engineering and enclosure system",
-    "projectScale": "building area/steel structure tons - approximately 9,557 m"
+    "projectScale": "building area/steel structure tons - approximately 9,557 m",
+    "imgSrcArr": [
+      "static/img/case/image100.jpeg",
+      "static/img/case/image100.jpeg",
+      "static/img/case/image100.jpeg"
+    ]
   },
   {
     "title": "Steel Platform Expansion Project of Klüber Lubrication Products (Shanghai) Co., Ltd.",
@@ -303,7 +468,12 @@
     "projectLocation": "Qingpu Industrial Park, Shanghai",
     "constructionUnit": "Kl??ber Lubrication Products (Shanghai) Co., Ltd. ",
     "projectScope": "Steel structure project of production platform",
-    "projectScale": "building area/steel structure tons - 220 tons"
+    "projectScale": "building area/steel structure tons - 220 tons",
+    "imgSrcArr": [
+      "static/img/case/image102.jpeg",
+      "static/img/case/image102.jpeg",
+      "static/img/case/image102.jpeg"
+    ]
   },
   {
     "title": "Expansion Project for the Annual Production Capacity of 2,000 Tons of Heavy-Duty Grinding Wheels of NORITAKE Abrasives (Suzhou) Co., Ltd.",
@@ -312,7 +482,12 @@
     "projectLocation": "Suzhou High-tech Zone",
     "constructionUnit": "NORITAKE Abrasives (Suzhou) Co., Ltd.",
     "projectScope": "steel structure engineering and enclosure system",
-    "projectScale": "Building area/steel structure tons - 6,700 m"
+    "projectScale": "Building area/steel structure tons - 6,700 m",
+    "imgSrcArr": [
+      "static/img/case/image103.jpeg",
+      "static/img/case/image103.jpeg",
+      "static/img/case/image103.jpeg"
+    ]
   },
   {
     "title": "Construction Project with an Annual Output of 1,270 Tons of Industrial Pigment Dispersions of Zhejiang T&K Toka Fine Chemicals Co., Ltd.",
@@ -321,7 +496,12 @@
     "projectLocation": "Dushangang Town, Pinghu City, Zhejiang",
     "constructionUnit": "Zhejiang T&K Toka Fine Chemicals Co., Ltd.",
     "projectScope": "steel structure engineering and enclosure system",
-    "projectScale": "building area/steel structure tons - 11,585 m"
+    "projectScale": "building area/steel structure tons - 11,585 m",
+    "imgSrcArr": [
+      "static/img/case/image105.jpeg",
+      "static/img/case/image105.jpeg",
+      "static/img/case/image105.jpeg"
+    ]
   },
   {
     "title": "Relocation Project for a Section of the Class A Production Workshop of Coca-Cola Beverages (Shanghai) Co., Ltd.",
@@ -330,7 +510,12 @@
     "projectLocation": "Minhang District, Shanghai",
     "constructionUnit": "Coca-Cola Beverages (Shanghai) Co., Ltd.",
     "projectScope": "steel structure engineering and enclosure system",
-    "projectScale": "Building area/steel structure tons - 1400 m"
+    "projectScale": "Building area/steel structure tons - 1400 m",
+    "imgSrcArr": [
+      "static/img/case/image107.jpeg",
+      "static/img/case/image107.jpeg",
+      "static/img/case/image107.jpeg"
+    ]
   },
   {
     "title": "Annual Production of 180,000 Tons of High-Performance Coatings and 20,000 Tons of Water-Based Coatings Project of Hempel (Zhangjiagang) Coatings Co., Ltd.",
@@ -339,7 +524,12 @@
     "projectLocation": "Zhangjiagang City",
     "constructionUnit": "Hempel (Zhangjiagang) Coatings Co., Ltd.",
     "projectScope": "steel structure engineering and enclosure system",
-    "projectScale": "building area/steel structure tons - approximately 5500 tons"
+    "projectScale": "building area/steel structure tons - approximately 5500 tons",
+    "imgSrcArr": [
+      "static/img/case/image109.jpeg",
+      "static/img/case/image109.jpeg",
+      "static/img/case/image109.jpeg"
+    ]
   },
   {
     "title": "Fresh Yeast Workshop Project of Inner Mongolia Biohymn Biotechnology Co., Ltd.",
@@ -348,7 +538,12 @@
     "projectLocation": "Linxi County, Chifeng City, Inner Mongolia",
     "constructionUnit": "Inner Mongolia Biohymn Biotechnology Co., Ltd.",
     "projectScope": "steel structure engineering and enclosure system",
-    "projectScale": "building area/steel structure tons - approximately 35,00 m"
+    "projectScale": "building area/steel structure tons - approximately 35,00 m",
+    "imgSrcArr": [
+      "static/img/case/image111.jpeg",
+      "static/img/case/image111.jpeg",
+      "static/img/case/image111.jpeg"
+    ]
   },
   {
     "title": "Electronic Factory Project of ZF (Guangzhou) Technology Co., Ltd.",
@@ -357,41 +552,81 @@
     "projectLocation": "East of Guanghua Highway, South of Yayao East Road, Huadu District, Guangzhou",
     "constructionUnit": "ZF (Guangzhou) Technology Co., Ltd.",
     "projectScope": "Steel structure works",
-    "projectScale": "building area/steel structure tons - approximately 16,000 m"
+    "projectScale": "building area/steel structure tons - approximately 16,000 m",
+    "imgSrcArr": [
+      "static/img/case/image113.jpeg",
+      "static/img/case/image113.jpeg",
+      "static/img/case/image113.jpeg"
+    ]
   },
   {
     "title": "Makkah train station in Saudi Arabia",
     "imgSrc": "static/img/case/image115.jpg",
-    "id": "40"
+    "id": "40",
+    "imgSrcArr": [
+      "static/img/case/image115.jpg",
+      "static/img/case/image115.jpg",
+      "static/img/case/image115.jpg"
+    ]
   },
   {
     "title": "Algeria Sports Stadium",
     "imgSrc": "static/img/case/image116.png",
-    "id": "41"
+    "id": "41",
+    "imgSrcArr": [
+      "static/img/case/image116.png",
+      "static/img/case/image116.png",
+      "static/img/case/image116.png"
+    ]
   },
   {
     "title": "Puerto Rico Convention Center",
     "imgSrc": "static/img/case/image117.png",
-    "id": "42"
+    "id": "42",
+    "imgSrcArr": [
+      "static/img/case/image117.png",
+      "static/img/case/image117.png",
+      "static/img/case/image117.png"
+    ]
   },
   {
     "title": "Malaysia Jinjing Glass Manufacturing Plant",
     "imgSrc": "static/img/case/image119.png",
-    "id": "43"
+    "id": "43",
+    "imgSrcArr": [
+      "static/img/case/image119.png",
+      "static/img/case/image119.png",
+      "static/img/case/image119.png"
+    ]
   },
   {
     "title": "Saudi Arabia Yanbu Project",
     "imgSrc": "static/img/case/image120.png",
-    "id": "44"
+    "id": "44",
+    "imgSrcArr": [
+      "static/img/case/image120.png",
+      "static/img/case/image120.png",
+      "static/img/case/image120.png"
+    ]
   },
   {
     "title": "Dubai Racecourse",
     "imgSrc": "static/img/case/image121.png",
-    "id": "45"
+    "id": "45",
+    "imgSrcArr": [
+      "static/img/case/image121.png",
+      "static/img/case/image121.png",
+      "static/img/case/image121.png"
+    ]
   },
   {
     "title": "Qatar Lusail Sports Stadium",
     "imgSrc": "static/img/case/image122.jpg",
-    "id": "46"
+    "id": "46",
+    "imgSrcArr": [
+      "static/img/case/image122.jpg",
+      "static/img/case/image122.jpg",
+      "static/img/case/image122.jpg"
+    ]
   }
 ]

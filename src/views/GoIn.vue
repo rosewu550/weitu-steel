@@ -35,26 +35,6 @@
             <div class="timeline"></div>
           </div>
           <div class="course-time">
-            <swiper :options="swiperOption" ref="mySwiper">
-              <swiper-slide v-for="(item,index) in courseList" :key="index">
-                <div class="time-show">
-                  <div class="time-show-item" v-for="(courseOne,one) in item" :key="one">
-                    <div class="item-top" :class="{'order-top' : one%2===1}"></div>
-                    <el-divider>
-                      <i class="el-icon-mobile-phone"></i>
-                    </el-divider>
-                    <div class="item-bottom" :class="{'order' : one%2===1}">
-                      <div class="item-bottom-content">
-                        <p>{{courseOne.Content}}</p>
-                        <p>{{courseOne.Year}}</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </swiper-slide>
-              <div class="swiper-button-prev" slot="button-prev"></div>
-              <div class="swiper-button-next" slot="button-next"></div>
-            </swiper>
           </div>
         </div>
 
@@ -120,12 +100,9 @@
 
 <script>
 import Banner from "../components/Banner";
-import { swiper, swiperSlide } from "vue-awesome-swiper";
 export default {
   components: {
-    Banner,
-    swiper,
-    swiperSlide
+    Banner
   },
   data() {
     return {

@@ -10,10 +10,6 @@ import '@/assets/font/font.css';
 import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI);
 
-import VueAwesomeSwiper from 'vue-awesome-swiper'
-import 'swiper/dist/css/swiper.css'
-Vue.use(VueAwesomeSwiper);
-
 import VideoPlayer from 'vue-video-player'
 import 'video.js/dist/video-js.css'
 import 'vue-video-player/src/custom-theme.css'
