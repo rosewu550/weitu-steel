@@ -20,6 +20,11 @@ let kejianrouter = new Router({
       component: () => import('./views/NewsDetails.vue'),
     },
     {
+      path: '/cpdetail/:id',
+      name: 'cpdetail',
+      component: () => import('./views/CPDetail.vue'),
+    },
+    {
       path: '/product',
       name: 'product',
       component: () => import('./views/Product.vue'),

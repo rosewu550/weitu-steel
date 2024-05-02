@@ -10,8 +10,13 @@
               <div class="company-case-title">
                 <label :for="index">{{ item.title }}</label>
                 <div :id="index" class="case-title-more">
-                  <p>more</p>
-                  <img :src="require('../assets/img/medium-arrow-black.png')"/>
+                  <router-link
+                      class="text-decoration"
+                      :to="{ name: 'cpdetail', params: { id: item.title }}"
+                  >
+                    <p>more</p>
+                    <img :src="require('../assets/img/medium-arrow-black.png')"/>
+                  </router-link>
                 </div>
               </div>
               <img :src=item.imgSrc alt="">
@@ -21,16 +26,19 @@
               <div class="company-case-title">
                 <label :for="index">{{ item.title }}</label>
                 <div :id="index" class="case-title-more">
-                  <p>more</p>
-                  <img :src="require('../assets/img/medium-arrow-black.png')"/>
+                  <router-link
+                      class="text-decoration"
+                      :to="{ name: 'cpdetail', params: { id: item.title }}"
+                  >
+                    <p>more</p>
+                    <img :src="require('../assets/img/medium-arrow-black.png')"/>
+                  </router-link>
                 </div>
               </div>
             </div>
             <div class = "company-case-divider"></div>
           </div>
         </div>
-
-
       </div>
     </div>
   </div>
@@ -38,7 +46,6 @@
 
 <script>
 import Banner from "../components/Banner";
-import ca from "element-ui/src/locale/lang/ca";
 
 export default {
   name: "company-performance",
