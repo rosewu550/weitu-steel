@@ -8,247 +8,227 @@
     "projectScope": "steel structure engineering and enclosure system",
     "projectScale": "building area/steel structure tons - approximately 2,300 m",
     "imgSrcArr": [
-      "static/img/case/no1.png",
-      "static/img/case/no1.png",
-      "static/img/case/no1.png"
+      "static/img/case/image39.png",
+      "static/img/case/image40.png"
     ]
   },
   {
     "title": "Capital Airport A380 Hangar Project",
-    "imgSrc": "static/img/case/no2.png",
+    "imgSrc": "static/img/case/image41.png",
     "id": "1",
     "projectLocation": "Beijing Capital International Airport",
     "constructionUnit": "Beijing Aircraft Maintenance Engineering Co., Ltd.",
     "projectScope": "Metal roofing and wall enclosure system",
     "projectScale": "building area/steel structure tons - approximately 60,000 m",
     "imgSrcArr": [
-      "static/img/case/no2.png",
-      "static/img/case/no2.png",
-      "static/img/case/no2.png"
+      "static/img/case/image41.png"
     ]
   },
   {
     "title": "Aircraft Maintenance Hangar and Annex Construction Project of China Eastern Airlines Kunming New Airport Base",
-    "imgSrc": "static/img/case/airport.png",
+    "imgSrc": "static/img/case/image42.png",
     "id": "2",
     "projectLocation": "Kunming Changshui International Airport",
     "constructionUnit": "China Eastern Airlines",
     "projectScope": "Metal roofing and wall enclosure system",
     "projectScale": "building area/steel structure tons - approximately 16,000 m",
     "imgSrcArr": [
-      "static/img/case/airport.png",
-      "static/img/case/airport.png",
-      "static/img/case/airport.png"
+      "static/img/case/image42.png"
     ]
   },
   {
     "title": "Hangar and Operations Control Center Project of Shenzhen Donghai Aviation Industry Center",
-    "imgSrc": "static/img/case/no3.png",
+    "imgSrc": "static/img/case/image43.jpeg",
     "id": "3",
     "projectLocation": "Shenzhen Bao'an International Airport",
     "constructionUnit": "Shenzhen Donghai Airlines",
     "projectScope": "Metal roofing and wall enclosure system",
     "projectScale": "building area/steel structure tons - approximately 12,000 m",
     "imgSrcArr": [
-      "static/img/case/no3.png",
-      "static/img/case/no3.png",
-      "static/img/case/no3.png"
+      "static/img/case/image43.jpeg",
+      "static/img/case/image44.jpeg"
     ]
   },
   {
     "title": "Volkswagen Exhibition Booth at Automobile Shanghai",
-    "imgSrc": "static/img/case/no4.png",
+    "imgSrc": "static/img/case/image45.png",
     "id": "4",
     "projectLocation": "Shanghai New International Expo Center",
     "constructionUnit": "Volkswagen (China) Investment Co. Ltd.",
     "projectScope": "Steel structure works",
     "projectScale": "building area/steel structure tons - approximately 60 tons",
     "imgSrcArr": [
-      "static/img/case/no4.png",
-      "static/img/case/no4.png",
-      "static/img/case/no4.png"
+      "static/img/case/image45.png",
+      "static/img/case/image46.png"
     ]
   },
   {
     "title": "Brilliance Auto Exhibition Booth at Automobile Shanghai",
-    "imgSrc": "static/img/case/no5.png",
+    "imgSrc": "static/img/case/image47.png",
     "id": "5",
     "projectLocation": "Shanghai National Convention and Exhibition Center",
     "constructionUnit": "Brilliance Auto ",
     "projectScope": "Steel structure works",
     "projectScale": "building area/steel structure tons - 40 tons",
     "imgSrcArr": [
-      "static/img/case/no5.png",
-      "static/img/case/no5.png",
-      "static/img/case/no5.png"
+      "static/img/case/image47.png",
+      "static/img/case/image48.png"
     ]
   },
   {
     "title": "JMC Exhibition Booth at Automobile Shanghai",
-    "imgSrc": "static/img/case/no6.png",
+    "imgSrc": "static/img/case/image50.jpeg",
     "id": "6",
     "projectLocation": "Shanghai National Convention and Exhibition Center",
     "constructionUnit": "JMC",
     "projectScope": "Steel structure works",
     "projectScale": "building area/steel structure tons - approximately 60 tons",
     "imgSrcArr": [
-      "static/img/case/no6.png",
-      "static/img/case/no6.png",
-      "static/img/case/no6.png"
+      "static/img/case/image50.jpeg"
     ]
   },
   {
     "title": "Circular Racetrack Project of Jaguar Land Rover",
-    "imgSrc": "static/img/case/no7.png",
+    "imgSrc": "static/img/case/image51.png",
     "id": "7",
     "projectLocation": "The North Bund in Shanghai",
     "constructionUnit": "Jaguar Land Rover ",
     "projectScope": "Steel structure installation ",
     "projectScale": "building area/steel structure tons - 90 tons",
     "imgSrcArr": [
-      "static/img/case/no7.png",
-      "static/img/case/no7.png",
-      "static/img/case/no7.png"
+      "static/img/case/image51.png",
+      "static/img/case/image52.jpeg"
     ]
   },
   {
     "title": "New Zealand Pavilion at Shanghai World Expo",
-    "imgSrc": "static/img/case/no8.png",
+    "imgSrc": "static/img/case/image53.jpeg",
     "id": "8",
     "projectLocation": "Shanghai World Expo Park",
     "constructionUnit": "New Zealand",
     "projectScope": "Metal roofing and wall enclosure system",
     "projectScale": "building area/steel structure tons - approximately 1,200 m",
     "imgSrcArr": [
-      "static/img/case/no8.png",
+      "static/img/case/image53.jpeg",
       "static/img/case/no8.png",
       "static/img/case/no8.png"
     ]
   },
   {
     "title": "Baotou Stadium Project",
-    "imgSrc": "static/img/case/no9.png",
+    "imgSrc": "static/img/case/image54.png",
     "id": "9",
     "projectLocation": "Baotou city",
     "constructionUnit": "Baotou city government",
     "projectScope": "Metal roof enclosure system",
     "projectScale": "building area/steel structure tons - approximately 9,000 m",
     "imgSrcArr": [
-      "static/img/case/no9.png",
-      "static/img/case/no9.png",
-      "static/img/case/no9.png"
+      "static/img/case/image54.png",
+      "static/img/case/image55.png"
     ]
   },
   {
     "title": "Tianyu Tourism Resort Water Park Project at Taishan Salt Sea Bath International Conference Center",
-    "imgSrc": "static/img/case/no10.png",
+    "imgSrc": "static/img/case/image56.png",
     "id": "10",
     "projectLocation": "Tai'an City, Shandong Province",
     "constructionUnit": "Shandong Huaxin Construction Engineering Co., Ltd. ",
     "projectScope": "Metal roof enclosure system",
     "projectScale": "building area/steel structure tons - approximately 20000 tons",
     "imgSrcArr": [
-      "static/img/case/no10.png",
-      "static/img/case/no10.png",
-      "static/img/case/no10.png"
+      "static/img/case/image56.png",
+      "static/img/case/image57.png"
     ]
   },
   {
     "title": "Chengdu Sancha Lake Changdao International Tourism Resort Project",
-    "imgSrc": "static/img/case/no11.png",
+    "imgSrc": "static/img/case/image58.png",
     "id": "11",
     "projectLocation": "Xinmin Town, Chengdu Hi-Tech Industrial Development Zone",
     "constructionUnit": "Sichuan Sancha Lake Changdao International Tourism Resort Co., Ltd.",
     "projectScope": "Steel structure works",
     "projectScale": "building area/steel structure tons - approximately 20,000 m",
     "imgSrcArr": [
-      "static/img/case/no11.png",
-      "static/img/case/no11.png",
-      "static/img/case/no11.png"
+      "static/img/case/image58.png",
+      "static/img/case/image59.png"
     ]
   },
   {
     "title": "Yanqi Lake International Convention & Exhibition Center Project",
-    "imgSrc": "static/img/case/no12.png",
+    "imgSrc": "static/img/case/image60.jpeg",
     "id": "12",
     "projectLocation": "Beijing Yanqi Lake International Convention & Exhibition Center",
     "constructionUnit": "Beijing Beikong International Huidu Real Estate Development Co., Ltd. ",
     "projectScope": "Metal roof enclosure system",
     "projectScale": "building area/steel structure tons - approximately 9,000 m",
     "imgSrcArr": [
-      "static/img/case/no12.png",
-      "static/img/case/no12.png",
-      "static/img/case/no12.png"
+      "static/img/case/image60.jpeg",
+      "static/img/case/image61.jpeg"
     ]
   },
   {
     "title": "Xining Panda Pavilion Project",
-    "imgSrc": "static/img/case/no13.png",
+    "imgSrc": "static/img/case/image62.png",
     "id": "13",
     "projectLocation": "Xining Wildlife Park",
     "constructionUnit": "Xining Cultural Tourism Development Investment Co., Ltd.",
     "projectScope": "Metal roof enclosure system",
     "projectScale": "building area/steel structure tons - 4,617 m",
     "imgSrcArr": [
-      "static/img/case/no13.png",
-      "static/img/case/no13.png",
-      "static/img/case/no13.png"
+      "static/img/case/image62.png",
+      "static/img/case/image63.jpeg"
     ]
   },
   {
     "title": "New Project of Yizhuang ABC Digital Manor",
-    "imgSrc": "static/img/case/no14.png",
+    "imgSrc": "static/img/case/image64.png",
     "id": "14",
     "projectLocation": "Yizhuang, Beijing",
     "constructionUnit": "China Enterprise Grow Force Technology Co., Ltd.",
     "projectScope": "Steel structure works",
     "projectScale": "building area/steel structure tons - approximately 880 tons",
     "imgSrcArr": [
-      "static/img/case/no14.png",
-      "static/img/case/no14.png",
-      "static/img/case/no14.png"
+      "static/img/case/image64.png",
+      "static/img/case/image65.png"
     ]
   },
   {
     "title": "Wenzhou Binjiang Business District Plot 18-02 Modern Tower Project\n",
-    "imgSrc": "static/img/case/no15.png",
+    "imgSrc": "static/img/case/image67.jpeg",
     "id": "15",
     "projectLocation": "Lucheng District, Wenzhou City",
     "constructionUnit": "Wenzhou Modern Service Investment Group Co., Ltd.",
     "projectScope": "Steel structure works",
     "projectScale": "building area/steel structure tons - approximately 3600 tons",
     "imgSrcArr": [
-      "static/img/case/no15.png",
-      "static/img/case/no15.png",
-      "static/img/case/no15.png"
+      "static/img/case/image67.jpeg",
+      "static/img/case/image66.jpeg"
     ]
   },
   {
     "title": "Steel Structure Project - Additional Floor Construction for the Comprehensive Building of Shanghai Baoshan Hospital of Integrated Traditional Chinese and Western Medicine",
-    "imgSrc": "static/img/case/no16.png",
+    "imgSrc": "static/img/case/image70.jpeg",
     "id": "16",
     "projectLocation": "Baoshan District, Shanghai",
     "constructionUnit": "Shanghai Baoshan Hospital of Integrated Traditional Chinese and Western Medicine",
     "projectScope": "Steel structure works",
     "projectScale": "building area/steel structure tons - approximately 200 tons",
     "imgSrcArr": [
-      "static/img/case/no16.png",
-      "static/img/case/no16.png",
-      "static/img/case/no16.png"
+      "static/img/case/image70.jpeg",
+      "static/img/case/image71.jpeg"
     ]
   },
   {
     "title": "Longxi Port Project in Huzhou",
-    "imgSrc": "static/img/case/no17.png",
+    "imgSrc": "static/img/case/image68.jpg",
     "id": "17",
     "projectLocation": "Huzhou City, Zhejiang",
     "constructionUnit": "Huzhou Jiaheng Real Estate Co., Ltd.",
     "projectScope": "Steel structure works",
     "projectScale": "building area/steel structure tons - 2200 tons",
     "imgSrcArr": [
-      "static/img/case/no17.png",
-      "static/img/case/no17.png",
-      "static/img/case/no17.png"
+      "static/img/case/image68.jpg",
+      "static/img/case/image69.jpg"
     ]
   },
   {
@@ -261,8 +241,7 @@
     "projectScale": "building area/steel structure tons - approximately 10000 tons",
     "imgSrcArr": [
       "static/img/case/image73.jpeg",
-      "static/img/case/image73.jpeg",
-      "static/img/case/image73.jpeg"
+      "static/img/case/image72.jpeg"
     ]
   },
   {
@@ -275,8 +254,7 @@
     "projectScale": "building area/steel structure tons - approximately 7400 tons",
     "imgSrcArr": [
       "static/img/case/image74.jpeg",
-      "static/img/case/image74.jpeg",
-      "static/img/case/image74.jpeg"
+      "static/img/case/image75.jpeg"
     ]
   },
   {
@@ -289,8 +267,7 @@
     "projectScale": "building area/steel structure tons - approximately 400 tons",
     "imgSrcArr": [
       "static/img/case/image76.jpeg",
-      "static/img/case/image76.jpeg",
-      "static/img/case/image76.jpeg"
+      "static/img/case/image77.jpeg"
     ]
   },
   {
@@ -303,8 +280,7 @@
     "projectScale": "building area/steel structure tons - 1800 tons",
     "imgSrcArr": [
       "static/img/case/image78.jpeg",
-      "static/img/case/image78.jpeg",
-      "static/img/case/image78.jpeg"
+      "static/img/case/image79.jpeg"
     ]
   },
   {
@@ -317,8 +293,7 @@
     "projectScale": "building area/steel structure tons - approximately 108,955 m",
     "imgSrcArr": [
       "static/img/case/image80.jpeg",
-      "static/img/case/image80.jpeg",
-      "static/img/case/image80.jpeg"
+      "static/img/case/image81.jpeg"
     ]
   },
   {
@@ -331,8 +306,7 @@
     "projectScale": "building area/steel structure tons - approximately 108,144 m",
     "imgSrcArr": [
       "static/img/case/image82.jpeg",
-      "static/img/case/image82.jpeg",
-      "static/img/case/image82.jpeg"
+      "static/img/case/image83.jpeg"
     ]
   },
   {
@@ -345,8 +319,7 @@
     "projectScale": "Building area/steel structure tons - 4,237 m",
     "imgSrcArr": [
       "static/img/case/image86.jpeg",
-      "static/img/case/image86.jpeg",
-      "static/img/case/image86.jpeg"
+      "static/img/case/image87.jpeg"
     ]
   },
   {
@@ -359,8 +332,7 @@
     "projectScale": "building area/steel structure tons - approximately 800 tons",
     "imgSrcArr": [
       "static/img/case/image84.jpg",
-      "static/img/case/image84.jpg",
-      "static/img/case/image84.jpg"
+      "static/img/case/image85.jpg"
     ]
   },
   {
@@ -373,8 +345,7 @@
     "projectScale": "Building area/steel structure tons - Approximately 2,000 m",
     "imgSrcArr": [
       "static/img/case/image88.png",
-      "static/img/case/image88.png",
-      "static/img/case/image88.png"
+      "static/img/case/image89.png"
     ]
   },
   {
@@ -387,8 +358,7 @@
     "projectScale": "building area/steel structure tons - approximately 30,000 m",
     "imgSrcArr": [
       "static/img/case/image90.png",
-      "static/img/case/image90.png",
-      "static/img/case/image90.png"
+      "static/img/case/image91.png"
     ]
   },
   {
@@ -401,8 +371,7 @@
     "projectScale": "building area/steel structure tons - approximately 20,000 m",
     "imgSrcArr": [
       "static/img/case/image92.jpeg",
-      "static/img/case/image92.jpeg",
-      "static/img/case/image92.jpeg"
+      "static/img/case/image93.jpeg"
     ]
   },
   {
@@ -415,8 +384,7 @@
     "projectScale": "building area/steel structure tons - approximately 9,000 m",
     "imgSrcArr": [
       "static/img/case/image94.jpeg",
-      "static/img/case/image94.jpeg",
-      "static/img/case/image94.jpeg"
+      "static/img/case/image95.jpeg"
     ]
   },
   {
@@ -429,8 +397,7 @@
     "projectScale": "building area/steel structure tons - approximately 2,600 m",
     "imgSrcArr": [
       "static/img/case/image96.png",
-      "static/img/case/image96.png",
-      "static/img/case/image96.png"
+      "static/img/case/image97.png"
     ]
   },
   {
@@ -443,8 +410,7 @@
     "projectScale": "Building area/steel structure tons - 37,390 m",
     "imgSrcArr": [
       "static/img/case/image98.jpeg",
-      "static/img/case/image98.jpeg",
-      "static/img/case/image98.jpeg"
+      "static/img/case/image99.jpeg"
     ]
   },
   {
@@ -457,8 +423,7 @@
     "projectScale": "building area/steel structure tons - approximately 9,557 m",
     "imgSrcArr": [
       "static/img/case/image100.jpeg",
-      "static/img/case/image100.jpeg",
-      "static/img/case/image100.jpeg"
+      "static/img/case/image101.jpeg"
     ]
   },
   {
@@ -470,8 +435,6 @@
     "projectScope": "Steel structure project of production platform",
     "projectScale": "building area/steel structure tons - 220 tons",
     "imgSrcArr": [
-      "static/img/case/image102.jpeg",
-      "static/img/case/image102.jpeg",
       "static/img/case/image102.jpeg"
     ]
   },
@@ -485,8 +448,7 @@
     "projectScale": "Building area/steel structure tons - 6,700 m",
     "imgSrcArr": [
       "static/img/case/image103.jpeg",
-      "static/img/case/image103.jpeg",
-      "static/img/case/image103.jpeg"
+      "static/img/case/image104.jpeg"
     ]
   },
   {
@@ -499,8 +461,7 @@
     "projectScale": "building area/steel structure tons - 11,585 m",
     "imgSrcArr": [
       "static/img/case/image105.jpeg",
-      "static/img/case/image105.jpeg",
-      "static/img/case/image105.jpeg"
+      "static/img/case/image106.jpeg"
     ]
   },
   {
@@ -513,8 +474,7 @@
     "projectScale": "Building area/steel structure tons - 1400 m",
     "imgSrcArr": [
       "static/img/case/image107.jpeg",
-      "static/img/case/image107.jpeg",
-      "static/img/case/image107.jpeg"
+      "static/img/case/image108.jpeg"
     ]
   },
   {
@@ -527,8 +487,7 @@
     "projectScale": "building area/steel structure tons - approximately 5500 tons",
     "imgSrcArr": [
       "static/img/case/image109.jpeg",
-      "static/img/case/image109.jpeg",
-      "static/img/case/image109.jpeg"
+      "static/img/case/image110.jpeg"
     ]
   },
   {
@@ -541,8 +500,7 @@
     "projectScale": "building area/steel structure tons - approximately 35,00 m",
     "imgSrcArr": [
       "static/img/case/image111.jpeg",
-      "static/img/case/image111.jpeg",
-      "static/img/case/image111.jpeg"
+      "static/img/case/image112.jpeg"
     ]
   },
   {
@@ -555,8 +513,7 @@
     "projectScale": "building area/steel structure tons - approximately 16,000 m",
     "imgSrcArr": [
       "static/img/case/image113.jpeg",
-      "static/img/case/image113.jpeg",
-      "static/img/case/image113.jpeg"
+      "static/img/case/image114.jpeg"
     ]
   },
   {
@@ -564,8 +521,6 @@
     "imgSrc": "static/img/case/image115.jpg",
     "id": "40",
     "imgSrcArr": [
-      "static/img/case/image115.jpg",
-      "static/img/case/image115.jpg",
       "static/img/case/image115.jpg"
     ]
   },
@@ -574,8 +529,6 @@
     "imgSrc": "static/img/case/image116.png",
     "id": "41",
     "imgSrcArr": [
-      "static/img/case/image116.png",
-      "static/img/case/image116.png",
       "static/img/case/image116.png"
     ]
   },
@@ -584,8 +537,6 @@
     "imgSrc": "static/img/case/image117.png",
     "id": "42",
     "imgSrcArr": [
-      "static/img/case/image117.png",
-      "static/img/case/image117.png",
       "static/img/case/image117.png"
     ]
   },
@@ -594,8 +545,6 @@
     "imgSrc": "static/img/case/image119.png",
     "id": "43",
     "imgSrcArr": [
-      "static/img/case/image119.png",
-      "static/img/case/image119.png",
       "static/img/case/image119.png"
     ]
   },
@@ -604,8 +553,6 @@
     "imgSrc": "static/img/case/image120.png",
     "id": "44",
     "imgSrcArr": [
-      "static/img/case/image120.png",
-      "static/img/case/image120.png",
       "static/img/case/image120.png"
     ]
   },
@@ -614,8 +561,6 @@
     "imgSrc": "static/img/case/image121.png",
     "id": "45",
     "imgSrcArr": [
-      "static/img/case/image121.png",
-      "static/img/case/image121.png",
       "static/img/case/image121.png"
     ]
   },
@@ -624,8 +569,6 @@
     "imgSrc": "static/img/case/image122.jpg",
     "id": "46",
     "imgSrcArr": [
-      "static/img/case/image122.jpg",
-      "static/img/case/image122.jpg",
       "static/img/case/image122.jpg"
     ]
   }
