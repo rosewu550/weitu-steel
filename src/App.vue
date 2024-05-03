@@ -48,7 +48,6 @@ export default {
   methods: {
     handleSelect(key) {
       this.isShow = this.defaultActive != key;
-      window.console.log(this.isShow);
     },
   },
 };

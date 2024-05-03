@@ -12,7 +12,6 @@
           </el-carousel>
         </div>
 
-
         <p class="item-title">{{ caseDetailMap.title }}</p>
         <p class="item-content">Project location: {{ caseDetailMap.projectLocation }}</p>
         <p class="item-content">Construction unit: {{ caseDetailMap.constructionUnit }}</p>
