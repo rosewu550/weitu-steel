@@ -1,7 +1,6 @@
 <template>
   <div class="home" v-loading="loading">
     <div class="portal swiper-slide">
-
       <div class="portal-first swiper-slide slide-one">
         <div class="page">
           <p class="big-slogan">PROFESSIONALISM QUALITY INTEGRITY</p>
@@ -14,14 +13,14 @@
         </div>
         <ul class="case-item">
           <li v-for="(item, index) in caseList" :key="index">
-            <img :src="item.imgSrc" alt="">
+            <img :src="item.imgSrc" alt="" />
             <p class="case-item-img-title">{{ item.title }}</p>
             <router-link class="text-decoration" :to="{ name: 'casedetails', params: { id: item.Id } }"></router-link>
           </li>
         </ul>
         <div class="bottom-page">
           <p>more</p>
-          <img src="../assets/img/medium-arrow.png"/>
+          <img src="../assets/img/medium-arrow.png" />
         </div>
       </div>
 
@@ -35,7 +34,8 @@
           <div class="contact-detail">
             <div class="first-column">
               <label for="address">address:</label>
-              <div id="address">Room 902, Building 5, Lane 680, Shuichan West Road, Baoshan District, Shanghai, China
+              <div id="address">
+                Room 902, Building 5, Lane 680, Shuichan West Road, Baoshan District, Shanghai, China
               </div>
             </div>
             <div class="second-column">
@@ -61,7 +61,7 @@ import MapContainer from "../components/MapContanier.vue";
 export default {
   name: "HelloWorld",
   components: {
-    MapContainer
+    MapContainer,
   },
   data() {
     return {
@@ -70,17 +70,19 @@ export default {
         {
           Id: 1,
           imgSrc: "static/img/case/airport.png",
-          title: "Aircraft Maintenance Hangar and Annex Construction Project of China Eastern Airlines Kunming New Airport Base"
+          title:
+            "Aircraft Maintenance Hangar and Annex Construction Project of China Eastern Airlines Kunming New Airport Base",
         },
         {
           Id: 2,
           imgSrc: "static/img/case/park.png",
-          title: "Changsha Xingnasi Supply Chain Management Co., Ltd. Changsha Smart Cold Chain Industrial Park Project",
+          title:
+            "Changsha Xingnasi Supply Chain Management Co., Ltd. Changsha Smart Cold Chain Industrial Park Project",
         },
         {
           Id: 3,
           imgSrc: "static/img/case/high.png",
-          title: "Suzhou Moon Bay International Center Project"
+          title: "Suzhou Moon Bay International Center Project",
         },
         {
           Id: 4,
@@ -90,12 +92,12 @@ export default {
         {
           Id: 5,
           imgSrc: "static/img/case/football.png",
-          title: "Algeria Sports Stadium"
+          title: "Algeria Sports Stadium",
         },
         {
           Id: 6,
           imgSrc: "static/img/case/single.png",
-          title: "Chengdu Sancha Lake Changdao International Tourism Resort Project"
+          title: "Chengdu Sancha Lake Changdao International Tourism Resort Project",
         },
       ],
       newsList: [],
@@ -135,8 +137,7 @@ export default {
       },
     };
   },
-  created() {
-  },
+  created() {},
   // 如果你需要得到当前的swiper对象来做一些事情，你可以像下面这样定义一个方法属性来获取当前的swiper对象，同时notNextTick必须为true
   computed: {
     swiper() {
@@ -147,7 +148,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .portal {
   .portal-first {
     height: 100vh !important;
@@ -168,6 +168,7 @@ export default {
 .swiper-slide {
   height: auto;
   font-size: 24px;
+  overflow: hidden;
   // text-align: center;
   // line-height: 100px;
   //display: ;
@@ -250,7 +251,7 @@ export default {
       word-spacing: 10px;
       text-align: left;
 
-      label{
+      label {
         font-weight: bold;
       }
 
@@ -278,7 +279,6 @@ export default {
     }
 
     h3 {
-
     }
   }
 }
@@ -342,7 +342,6 @@ export default {
   background: url(../assets/img/weitu_bottom.png) no-repeat center;
   background-size: cover;
 }
-
 
 .order {
   order: -1;
