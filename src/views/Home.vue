@@ -150,16 +150,16 @@ export default {
 <style lang="scss" scoped>
 .portal {
   .portal-first {
-    height: 100vh !important;
+    min-height: 100vh !important;
   }
 
   .portal-second {
-    height: 100vh !important;
+    min-height: 100vh !important;
     padding-top: 94px;
   }
 
   .portal-third {
-    height: 100vh !important;
+    min-height: 100vh !important;
     padding-top: 94px;
     position: relative;
   }
