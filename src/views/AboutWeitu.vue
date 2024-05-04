@@ -558,11 +558,6 @@ export default {
         width: 100%;
       }
     }
-
-    .image-rotate90 {
-      rotate: 90deg;
-      height: 90%;
-    }
   }
 
   .profile-body-odd {
@@ -649,7 +644,6 @@ export default {
     width: 100%;
     height: 100%;
 
-
     img {
       width: 100%;
       height: 300px;
@@ -685,7 +679,13 @@ export default {
       height: 92%;
       padding-bottom: 5px;
     }
+
+    .image-rotate90 {
+      rotate: 90deg;
+      height: 90%;
+    }
   }
+
 }
 
 
