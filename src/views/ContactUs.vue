@@ -115,7 +115,7 @@ export default {
       background: rgba(91, 91, 91, 0.9);
       position: absolute;
       right: 110px;
-      bottom: 0;
+      bottom: 300px;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
