@@ -29,7 +29,6 @@
                 for any single violation.</p>
             </div>
           </div>
-
           <div class="profile-body-odd">
             <div class="body-odd-title">
               <p>Safety, civility, and security management system</p>
@@ -59,12 +58,227 @@
 
             </div>
           </div>
+          <div class="profile-body-even">
+            <div class="body-even-title">Occupational health and environmental protection management system</div>
+            <div class="body-even-center">
+              <div class="center-construction-management">
+                <p>I. General objectives of occupational health and safety</p>
+                <p>II. Environmental protection objectives</p>
+                <p>III. Environmental management system</p>
+                <p>IV. Environmental management organization</p>
+                <p>V. Environmental management responsibilities</p>
+                <p>Ⅵ. Environmental management process</p>
+                <p>VII. Determination of the list of significant environmental factors</p>
+                <p>VIII. Environmental management rules and regulations</p>
+                <p>IX. Environmental protection measures</p>
+                <p>X. Measures for controlling dust, noise, moisture, and water pollution</p>
+              </div>
 
+
+            </div>
+          </div>
+          <div class="profile-body-odd">
+            <div class="body-odd-title">
+              <p>Hazard analysis and evaluation</p>
+            </div>
+            <div class="center-construction-management">
+              <p>Considering the unique characteristics of each project and the diverse construction environments,
+                conduct a comprehensive analysis of activities across the entire site. This involves a meticulous risk
+                assessment for each step of the project, identifying potential safety hazards associated with each
+                operational activity. Delve into the types of hazards and potential safety accidents stemming from each
+                hazardous source, and subsequently formulate corresponding control measures.</p>
+            </div>
+          </div>
+          <div class="profile-body-even">
+            <div class="body-even-title">PPE</div>
+            <div class="body-even-center">
+              <div class="center-construction-management">
+                <p>Key factors taken into account during the analysis and evaluation: Psychological factors, material
+                  and equipment considerations, environmental and natural disaster factors, hazardous material and
+                  chemical elements, as well as human error factors.</p>
+                <p>Activities involving primary sources of danger: Working at heights, electrical work, hoisting
+                  operations, welding and cutting activities, equipment installation, and the operation of construction
+                  machinery.</p>
+              </div>
+
+
+            </div>
+          </div>
+          <div class="profile-body-odd">
+            <div class="body-odd-title">
+              <p>Safety penalties and safety meetings</p>
+            </div>
+            <div class="center-construction-management">
+              <p>Implement a safety penalty system on-site. Individuals found in violation of safety regulations will be
+                subject to penalties, and comprehensive records of these incidents will be maintained. Any employee
+                subject to three penalties on-site will be directed to leave the premises. Conversely, commendations and
+                necessary rewards are bestowed upon individuals who consistently adhere to and excel in complying with
+                safety regulations in their daily activities.</p>
+            </div>
+          </div>
+          <div class="profile-body-even">
+            <div class="body-even-title">Education and training</div>
+            <div class="body-even-center">
+              <div class="center-construction-management">
+                <p>Educational methods encompass reviewing rules and regulations, viewing instructional videos, and
+                  completing written assessments.</p>
+                <p>Each employee is required to undergo three levels of education, with the primary content focusing
+                  on:</p>
+                <p>1.Basic knowledge of safety, laws and regulations</p>
+                <p>2.Education on site regulations and discipline</p>
+                <p>3.Post safety operation, safety system education</p>
+                <p>Provide safety education to employees in accordance with the specific regulations of the project and
+                  the company.</p>
+                <p>Present videos depicting accidents to help employees directly see the critical importance of safety.
+                  Subsequently, conduct analyses and explanations of the incidents to reinforce the understanding of
+                  safety principles.</p>
+                <p>After safety education, each employee must undergo a written assessment to gauge their mastery of
+                  safety knowledge. Only those scoring 90 points or higher in the assessment are permitted to engage in
+                  field operations.</p>
+                <p>Upon entering the site, employees will receive safety technology briefings based on the labor
+                  category and specific operation.</p>
+
+              </div>
+
+
+            </div>
+          </div>
+          <div class="profile-body-odd">
+            <div class="body-odd-title">
+              <p>Quality control target</p>
+            </div>
+            <div class="center-construction-management">
+              <p>The sub-parts of the project must achieve a 100% passing rate, meeting the specified requirements of
+                the owner.
+                To ensure the attainment of the project's quality objectives, we have implemented a comprehensive
+                quality management system along with effective management methods and measures.
+                To accomplish our management objectives, our company has instituted a structure wherein a project
+                manager oversees the project, a designated technical lead manages project-related technical aspects, and
+                a project quality officer ensures specific implementation. Additionally, the company's technology,
+                quality, materials, equipment, and other relevant departments contribute to the oversight and inspection
+                of the quality assurance system. This meticulous organizational framework is established to guarantee a
+                reliable and robust system, ultimately ensuring the quality of the project. The primary emphasis is on
+                the execution of our quality management system and quality inspection program, targeting the following
+                five key areas:
+              </p>
+              <p>1.Quality of work on important projects</p>
+              <p>2.General engineering quality</p>
+              <p>3.Quality control of materials before and after installation</p>
+              <p>4.System and equipment testing</p>
+              <p>5.Quality of documentation control</p>
+            </div>
+          </div>
+          <div class="profile-body-even">
+            <div class="body-even-title">Progress control target</div>
+            <div class="body-even-center">
+              <div class="center-construction-management">
+                <p>Ensure the timely completion of the contracted work within the specified</p>
+                <p>contract period.</p>
+              </div>
+            </div>
+          </div>
+          <div class="profile-body-odd">
+            <div class="body-odd-title">
+              <p>Quality control target</p>
+            </div>
+            <div class="center-construction-management">
+              <p>The sub-parts of the project must achieve a 100% passing rate, meeting the specified requirements of
+                the owner.
+                To ensure the attainment of the project's quality objectives, we have implemented a comprehensive
+                quality management system along with effective management methods and measures.
+                To accomplish our management objectives, our company has instituted a structure wherein a project
+                manager oversees the project, a designated technical lead manages project-related technical aspects, and
+                a project quality officer ensures specific implementation. Additionally, the company's technology,
+                quality, materials, equipment, and other relevant departments contribute to the oversight and inspection
+                of the quality assurance system. This meticulous organizational framework is established to guarantee a
+                reliable and robust system, ultimately ensuring the quality of the project. The primary emphasis is on
+                the execution of our quality management system and quality inspection program, targeting the following
+                five key areas:
+              </p>
+              <p>1.Quality of work on important projects</p>
+              <p>2.General engineering quality</p>
+              <p>3.Quality control of materials before and after installation</p>
+              <p>4.System and equipment testing</p>
+              <p>5.Quality of documentation control</p>
+            </div>
+          </div>
+          <div class="profile-body-even">
+            <div class="body-even-title">Emergency handling procedure</div>
+            <div class="body-even-center even-center-emergency">
+              <img src="static/img/construction/EmergencyHandlingProcedure.png" alt="">
+            </div>
+          </div>
+          <div class="profile-body-odd">
+            <div class="body-odd-title">
+              <p>Catch-up plan process</p>
+            </div>
+            <div class="body-odd-center odd-center-catchUp">
+              <img src="static/img/construction/CatchUpPlanProcess.png" alt="">
+            </div>
+          </div>
+        </div>
+
+
+        <div v-else-if="menuSelected === 'overview-of-plant-menu'" id="overview-of-plant-body">
+          <div class="profile-body-even">
+            <div class="body-even-title">Plant introduction</div>
+            <div class="body-even-center">
+              <div class="body-even-left">
+                <p>Shanghai Weitu Steel Structure Engineering Co., Ltd. is the proprietor of both Langxi Steel Structure
+                  Processing Plant and Wuxi Qunli Cooperative Steel Structure Processing Plant.
+                  Langxi Steel Structure Processing Plant, with an area of approximately 2,000 square meters, primarily
+                  focuses on processing small components and precision-required spare parts. The annual steel structure
+                  output from this facility is around 1,000 tons.
+                  Wuxi Qunli Steel Structure Processing Plant boasts a substantial plant building area of approximately
+                  40,000 square meters, producing an annual output of around 20,000 tons of steel structure.
+                </p>
+              </div>
+              <div class="body-even-right even-right-plant">
+                <img src="static/img/overview/image24.jpg" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="profile-body-odd">
+            <div class="body-odd-title">
+              <p>Plant overview--Langxi Plant</p>
+            </div>
+            <div class="body-odd-center center-plant-overview">
+              <div class="plant-overview-grid-first">
+                <img src="static/img/overview/image28.jpeg" alt="">
+                <img src="static/img/overview/image26.jpeg" alt="">
+                <img src="static/img/overview/image27.jpeg" alt="">
+                <img src="static/img/overview/image29.png" alt="">
+              </div>
+              <div class="plant-overview-grid-second">
+                <img src="static/img/overview/image25.jpeg" alt="">
+                <img src="static/img/overview/image30.png" alt="">
+                <img src="static/img/overview/image31.jpg" alt="">
+              </div>
+            </div>
+          </div>
+
+
+          <div class="profile-body-even">
+            <div class="body-even-title">Plant overview--Wuxi Plant</div>
+            <div class="body-even-center center-plant-overview">
+              <div class="plant-overview-grid-first">
+                <img src="static/img/overview/image35.jpeg" alt="">
+                <img src="static/img/overview/image33.jpeg" alt="">
+                <img src="static/img/overview/image34.jpeg" alt="">
+                <img src="static/img/overview/image36.png" alt="">
+              </div>
+              <div class="plant-overview-grid-second">
+                <img src="static/img/overview/image32.jpeg" alt="">
+                <img src="static/img/overview/image37.png" alt="">
+                <img src="static/img/overview/image38.jpeg" alt="">
+              </div>
+            </div>
+          </div>
 
         </div>
 
 
-        <div v-else-if="menuSelected === 'overview-of-plant-menu'" id="overview-of-plant-body"></div>
         <div v-else id="company-profile-body">
           <div class="profile-body-even">
             <div class="body-even-title">introduction</div>
@@ -115,60 +329,6 @@
               </div>
             </div>
           </div>
-          <div class="profile-body-even">
-            <div class="body-even-title">company qualification</div>
-            <div class="body-even-center">
-              <div class="body-even-company-qualification">
-                <div class="company-qualification-row">
-                  <div class="qualification-img-union">
-                    <img src="static/img/companyQualification/image12.png" alt="">
-                    <p>Certification of occupational health and safety management system</p>
-                  </div>
-                </div>
-                <div class="company-qualification-row">
-                  <div class="qualification-img-union">
-                    <img src="static/img/companyQualification/image13.jpeg" alt="">
-                    <p>Business license</p>
-                  </div>
-                  <div class="qualification-img-union">
-                    <img src="static/img/companyQualification/image14.jpeg" alt="">
-                    <p>The qualification of the construction labor service enterprise is ungraded</p>
-                  </div>
-
-                </div>
-                <div class="company-qualification-row">
-                  <div class="qualification-img-union">
-                    <img src="static/img/companyQualification/image15.png" alt="">
-                    <p>Certification of occupational health and safety management system</p>
-                  </div>
-                  <div class="qualification-img-union">
-                    <img src="static/img/companyQualification/image16.png" alt="">
-                    <p>Certification of environmental management system</p>
-                  </div>
-                  <div class="qualification-img-union">
-                    <img src="static/img/companyQualification/image17.png" alt="">
-                    <p>Certification of quality management system for engineering and construction enterprises</p>
-                  </div>
-                </div>
-                <div class="company-qualification-row">
-                  <div class="qualification-img-union">
-                    <img src="static/img/companyQualification/image18.png" alt="">
-                    <p>Certification of occupational health and safety management system</p>
-                  </div>
-                  <div class="qualification-img-union">
-                    <img src="static/img/companyQualification/image19.png" alt="">
-                    <p>Certification of environmental management system</p>
-                  </div>
-                  <div class="qualification-img-union">
-                    <img src="static/img/companyQualification/image20.png" alt="">
-                    <p>Certification of quality management system for engineering and construction enterprises</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
         </div>
       </div>
     </div>
@@ -300,7 +460,6 @@ export default {
   #overview-of-plant-body {
     width: 100%;
     height: 100%;
-    background: black;
   }
 
   #company-profile-body {
@@ -383,15 +542,24 @@ export default {
             p {
               margin: 20px 0;
             }
-
           }
-
-
         }
+      }
 
+      .even-right-plant {
+        width: 500px;
       }
 
     }
+
+    .even-center-emergency {
+      img {
+        width: 100%;
+      }
+
+    }
+
+
   }
 
   .profile-body-odd {
@@ -408,6 +576,7 @@ export default {
       display: flex;
       flex-direction: row;
       justify-content: flex-end;
+      text-align: center;
     }
 
     .body-odd-center {
@@ -451,9 +620,53 @@ export default {
       align-items: start;
       font-size: 25px;
     }
+
+    .odd-center-catchUp {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+.center-plant-overview {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  .plant-overview-grid-first {
+    display: grid;
+    grid: auto-flow dense / 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-right: 20px;
+    width: 100%;
+    height: 100%;
+
+
+    img {
+      width: 100%;
+      height: 300px;
+    }
   }
 
+  .plant-overview-grid-second {
+    display: grid;
+    grid: auto-flow dense / 1fr  1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    width: 100%;
 
+
+
+    img {
+      width: 100%;
+      height: 300px;
+    }
+  }
 }
 
 
