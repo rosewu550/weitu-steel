@@ -187,9 +187,8 @@ export default {
           font-size: 20px;
           padding: 0 0 40px 0;
 
-
           .left-part-title{
-            font-size: 25px;
+            font-size: 22px;
             font-weight: bold;
           }
 
