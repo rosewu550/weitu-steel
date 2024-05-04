@@ -19,8 +19,6 @@
             <el-menu-item index="/contactus">contact us</el-menu-item>
           </el-menu>
         </div>
-
-
       </el-header>
       <el-main>
         <router-view/>
@@ -120,60 +118,9 @@ body {
   font-size: 20px !important;
 }
 
-.footer {
-  width: 100%;
-  height: 216px;
-  overflow: hidden;
-  background-color: #14679f;
-
-  &-content {
-    width: 1240px;
-    margin: 0 auto;
-    padding-top: 20px;
-    display: flex;
-    justify-content: space-between;
-
-    .content-nav {
-      display: flex;
-      justify-content: space-around;
-
-      li {
-        display: flex;
-        flex-direction: column;
-        padding: 0 20px;
-        //justify-content: center;
-        align-items: flex-start;
-
-        p {
-          font-size: 20px;
-          color: #d4edff;
-          padding: 10px 0;
-        }
-
-        span {
-          color: #f7f7f7;
-          font-weight: 300;
-          padding: 5px 0;
-        }
-      }
-    }
-
-    img {
-      width: 170px;
-      height: 170px;
-      padding: 10px;
-    }
-  }
-
-  .copyright {
-    height: 30px;
-    background: #125688;
-
-    span {
-      color: #fff;
-      line-height: 30px;
-    }
-  }
+.el-menu-item.is-active {
+  border-bottom: none !important;
 }
+
 </style>
 
