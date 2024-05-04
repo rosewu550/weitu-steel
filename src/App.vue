@@ -4,15 +4,9 @@
       <el-header class="header">
         <div class="header-in">
           <div class="logo">
-            <img src="./assets/img/weitu-logo.png" alt/>
+            <img src="./assets/img/weitu-logo.png" alt />
           </div>
-          <el-menu
-              :default-active="defaultActive"
-              class="el-menu-demo"
-              mode="horizontal"
-              @select="handleSelect"
-              :router="router"
-          >
+          <el-menu :default-active="defaultActive" mode="horizontal" @select="handleSelect" :router="router">
             <el-menu-item index="/">portal</el-menu-item>
             <el-menu-item index="/companyPerformance">company performance</el-menu-item>
             <el-menu-item index="/aboutweitu">about weitu</el-menu-item>
@@ -21,7 +15,7 @@
         </div>
       </el-header>
       <el-main>
-        <router-view/>
+        <router-view />
       </el-main>
     </el-container>
     <Footer></Footer>
@@ -31,10 +25,9 @@
 <script>
 import Footer from "./components/Footer";
 
-
 export default {
-  components:{
-    Footer
+  components: {
+    Footer,
   },
   data() {
     return {
@@ -103,24 +96,22 @@ body {
 .el-main {
   padding: 0 !important;
 }
+.el-menu {
+  height: 100% !important;
+  display: flex;
+  align-items: center;
+}
 
-.el-menu--horizontal {
-  .el-menu-item {
-    height: 0 !important;
-    line-height: 0 !important;
-  }
+.is-active {
+  border: unset !important;
 }
 
 .el-menu-item {
-  height: 0 !important;
-  line-height: 0 !important;
-  padding: 53px 20px !important;
   font-size: 20px !important;
+  border: unset !important;
 }
 
 .el-menu-item.is-active {
-  border-bottom: none !important;
 }
-
 </style>
 
