@@ -2,9 +2,8 @@
   <div id="container"></div>
 </template>
 
-
 <script>
-import AMapLoader from '@amap/amap-jsapi-loader';
+import AMapLoader from "@amap/amap-jsapi-loader";
 
 export default {
   name: "map-view",
@@ -20,36 +19,33 @@ export default {
         key: "8807bb8f1fc636572f32badadb6e847e",
         version: "2.0",
         plugins: ["AMap.Scale"],
-      })
-          .then((AMap) => {
-            this.map = new AMap.Map("container", {
-              viewMode: "3D",
-              zoom: 11,
-              center: [121.418042, 31.355867],
-              mapStyle: "amap://styles/whitesmoke",
-            });
+      }).then((AMap) => {
+        this.map = new AMap.Map("container", {
+          viewMode: "3D",
+          zoom: 11,
+          center: [121.418042, 31.355867],
+          mapStyle: "amap://styles/whitesmoke",
+        });
 
-            const marker = new AMap.Marker({
-              position: new AMap.LngLat(121.418042, 31.355867),
-              label:{
-                "content":"WEITU STEEL"
-              }
-            });
-            this.map.add(marker);
-          });
+        const marker = new AMap.Marker({
+          position: new AMap.LngLat(121.418042, 31.355867),
+          label: {
+            content: "WEITU STEEL",
+          },
+        });
+        this.map.add(marker);
+      });
     },
   },
 };
-
 </script>
-
 
 <style lang="scss" scoped>
 #container {
   padding: 0;
   margin: 0;
   width: 100%;
-  height: 100%;
+  height: 500px;
 }
-
 </style>
+

@@ -3,43 +3,43 @@
     <banner title="CONTACT US" :img="img"></banner>
     <div class="contact-us-container">
       <div class="map-container">
-        <MapContainer class="map"></MapContainer>
+        <MapContainer></MapContainer>
         <div class="sub-map-container">
-          <div class="contact-us-card">
-            <p class="card-title">WEITU STEEL</p>
-            <p class="card-sub-title">SHANGHAI WEITU STEEL STRUCTURE ENGINEERING CO., LTD.</p>
-            <div class="card-detail">
-              <img class="horizontal-divider" src="../assets/img/horizon-divider.png" alt="">
-              <div class="detail-title">
-                <div class="detail-word">address:</div>
-              </div>
-              <div class="detail-title">
-                <div class="detail-word address-detail">Room 902, Building 5, Lane 680, Shuichan West Road, Baoshan
-                  District, Shanghai, China
-                </div>
-              </div>
-
-            </div>
-            <div class="card-detail">
-              <img class="horizontal-divider" src="../assets/img/horizon-divider.png" alt="">
-              <div class="detail-word">post code:</div>
-              <div class="detail-word">200126</div>
-            </div>
-          </div>
           <div class="left-contact-us">
             <div class="left-part left-telephone">
-              <img src="../assets/img/telephone.png" alt="">
+              <img src="../assets/img/telephone.png" alt="" />
               <div class="left-part-title">telephone:</div>
               <p>13091119111</p>
             </div>
             <div class="left-part left-email">
-              <img src="../assets/img/email.png" alt="">
+              <img src="../assets/img/email.png" alt="" />
               <div class="left-part-title">email:</div>
               <p>912112919191@qq.com</p>
             </div>
           </div>
+          <div class="right-contact-us">
+            <div class="contact-us-card">
+              <p class="card-title">WEITU STEEL</p>
+              <p class="card-sub-title">SHANGHAI WEITU STEEL STRUCTURE ENGINEERING CO., LTD.</p>
+              <div class="card-detail">
+                <img class="horizontal-divider" src="../assets/img/horizon-divider.png" alt="" />
+                <div class="detail-title">
+                  <div class="detail-word">address:</div>
+                </div>
+                <div class="detail-title">
+                  <div class="detail-word address-detail">
+                    Room 902, Building 5, Lane 680, Shuichan West Road, Baoshan District, Shanghai, China
+                  </div>
+                </div>
+              </div>
+              <div class="card-detail">
+                <img class="horizontal-divider" src="../assets/img/horizon-divider.png" alt="" />
+                <div class="detail-word">post code:</div>
+                <div class="detail-word">200126</div>
+              </div>
+            </div>
+          </div>
         </div>
-
       </div>
     </div>
   </div>
@@ -94,28 +94,27 @@ export default {
 }
 
 .contact-us-container {
-  position: relative;
   .map-container {
     display: flex;
     flex-direction: column;
     width: 60%;
-    height: 900px;
+
     margin: 82px auto 50px;
     overflow: hidden;
     border-radius: 5px;
 
-    .map {
-      height: 500px;
+    .right-contact-us {
+      flex: 1;
+      position: relative;
     }
 
     .contact-us-card {
       float: left;
-      width: 30%;
-      height: 40%;
+      width: 500px;
       background: rgba(91, 91, 91, 0.9);
       position: absolute;
-      right: 110px;
-      bottom: 300px;
+      right: 0px;
+      top: -50px;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -133,7 +132,6 @@ export default {
         font-weight: bold;
         margin-top: 15px;
         width: 90%;
-
       }
 
       .card-detail {
@@ -168,16 +166,13 @@ export default {
       width: 100%;
       height: 100%;
       display: flex;
-      justify-content: flex-start;
 
       .left-contact-us {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        position: absolute;
-        float: left;
         padding: 80px 0 20px 0;
-
+        width: fit-content;
 
         .left-part {
           display: flex;
@@ -187,7 +182,7 @@ export default {
           font-size: 20px;
           padding: 0 0 40px 0;
 
-          .left-part-title{
+          .left-part-title {
             font-size: 22px;
             font-weight: bold;
           }
@@ -201,7 +196,11 @@ export default {
     }
   }
 }
+
+@media (max-width: 1416px) {
+  .sub-map-container {
+    flex-direction: column;
+  }
+}
 </style>
 
-
-</style>
