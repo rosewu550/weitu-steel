@@ -641,23 +641,10 @@ export default {
     column-gap: 10px;
     row-gap: 10px;
     margin-right: 20px;
-    width: 100%;
-    height: 100%;
 
     img {
       width: 100%;
       height: 300px;
-    }
-
-    .image-with-rotate {
-      width: 100%;
-      height: 92%;
-      padding-bottom: 5px;
-    }
-
-    .image-rotate90 {
-      rotate: 90deg;
-      height: 90%;
     }
   }
 
@@ -666,23 +653,10 @@ export default {
     grid: auto-flow dense / 1fr  1fr;
     column-gap: 10px;
     row-gap: 10px;
-    width: 100%;
-
 
     img {
       width: 100%;
       height: 300px;
-    }
-
-    .image-with-rotate {
-      width: 100%;
-      height: 92%;
-      padding-bottom: 5px;
-    }
-
-    .image-rotate90 {
-      rotate: 90deg;
-      height: 90%;
     }
   }
 
