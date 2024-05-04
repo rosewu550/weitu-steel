@@ -8,24 +8,23 @@
           <p class="card-title">WEITU STEEL</p>
           <p class="card-sub-title">SHANGHAI WEITU STEEL STRUCTURE ENGINEERING CO., LTD.</p>
           <div class="card-detail">
-            <img class="horizontal-divider" src="../assets/img/horizon-divider.png" alt="">
+            <img class="horizontal-divider" src="../assets/img/horizon-divider.png" alt="" />
             <div class="detail-title">
               <div class="detail-word">address:</div>
             </div>
             <div class="detail-title">
-              <div class="detail-word address-detail">Room 902, Building 5, Lane 680, Shuichan West Road, Baoshan District, Shanghai, China</div>
+              <div class="detail-word address-detail">
+                Room 902, Building 5, Lane 680, Shuichan West Road, Baoshan District, Shanghai, China
+              </div>
             </div>
-
           </div>
           <div class="card-detail">
-            <img class="horizontal-divider" src="../assets/img/horizon-divider.png" alt="">
+            <img class="horizontal-divider" src="../assets/img/horizon-divider.png" alt="" />
             <div class="detail-word">post code:</div>
             <div class="detail-word">200126</div>
           </div>
-
         </div>
       </div>
-
     </div>
   </div>
 </template>
@@ -43,28 +42,28 @@ export default {
   props: {
     img: {
       type: String,
-      default: require("../assets/img/weitu-top2.jpg")
-    }
+      default: require("../assets/img/weitu-top2.jpg"),
+    },
   },
   data() {
     return {
       pid: -1,
-      caseDetailMap: {}
+      caseDetailMap: {},
     };
   },
   created() {
     this.pid = this.$route.params.id;
   },
   mounted() {
-    this.$http.get('static/json/companyCase.json').then(response => {
+    this.$http.get("static/json/companyCase.json").then((response) => {
       const casesList = response.data;
-      this.caseDetailMap = casesList.filter(caseMap => {
+      this.caseDetailMap = casesList.filter((caseMap) => {
         if (this.pid === caseMap.id) {
           return caseMap;
         }
       })[0];
     });
-  }
+  },
 };
 </script>
 
@@ -79,6 +78,7 @@ export default {
 }
 
 .contact-us-container {
+  position: relative;
   .map-container {
     display: flex;
     flex-direction: column;
@@ -88,25 +88,26 @@ export default {
     overflow: hidden;
     border-radius: 5px;
 
-    .map{
+    .map {
       height: 500px;
     }
 
     .contact-us-card {
       float: left;
-      width: 50%;
-      height: 60%;
+      width: 30%;
+      height: 40%;
       background: rgba(91, 91, 91, 0.9);
-      position: relative;
-      left: 50%;
-      top: -6%;
+      position: absolute;
+      right: 110px;
+      bottom: 0;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       padding: 40px 0 0 50px;
       color: #fff;
+      box-sizing: border-box;
 
-      .card-title{
+      .card-title {
         font-size: 25px;
         font-weight: bold;
       }
@@ -115,38 +116,35 @@ export default {
         font-size: 16px;
         font-weight: bold;
         margin-top: 15px;
-
       }
 
-      .card-detail{
+      .card-detail {
         display: flex;
         flex-direction: row;
         margin-top: 30px;
 
-        .horizontal-divider{
+        .horizontal-divider {
           background: white;
           height: 1px;
           position: relative;
           top: 50%;
           transform: translateY(-50%);
-
         }
 
         .detail-word {
           margin: 0 20px 15px 10px;
-          height: 30px;
+          // height: 30px;
           position: relative;
           top: 50%;
           transform: translateY(-50%);
         }
 
-        .address-detail{
-          width: 70%;
+        .address-detail {
           margin: 0 50px 0 23px;
         }
       }
     }
   }
 }
-
 </style>
+
