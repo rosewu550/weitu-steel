@@ -1,5 +1,5 @@
 <template>
-  <div class="news">
+  <div class="company-performance">
     <banner title="COMPANY PERFORMANCE" :img="img"></banner>
     <div class="news-section" v-loading="loading">
       <div class="news-section-content">

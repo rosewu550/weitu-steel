@@ -263,15 +263,15 @@
             <div class="body-even-title">Plant overview--Wuxi Plant</div>
             <div class="body-even-center center-plant-overview">
               <div class="plant-overview-grid-first">
-                <img src="static/img/overview/image35.jpeg" alt="">
-                <img src="static/img/overview/image33.jpeg" alt="">
-                <img src="static/img/overview/image34.jpeg" alt="">
-                <img src="static/img/overview/image36.png" alt="">
+                <img class="image-rotate90" src="static/img/overview/image35.jpeg" alt="">
+                <img class="image-rotate90" src="static/img/overview/image33.jpeg" alt="">
+                <img class="image-rotate90" src="static/img/overview/image34.jpeg" alt="">
+                <img class="image-with-rotate"  src="static/img/overview/image36.png" alt="">
               </div>
               <div class="plant-overview-grid-second">
-                <img src="static/img/overview/image32.jpeg" alt="">
-                <img src="static/img/overview/image37.png" alt="">
-                <img src="static/img/overview/image38.jpeg" alt="">
+                <img class="image-rotate90" src="static/img/overview/image32.jpeg" alt="">
+                <img class="image-with-rotate" src="static/img/overview/image37.png" alt="">
+                <img class="image-rotate90" src="static/img/overview/image38.jpeg" alt="">
               </div>
             </div>
           </div>
@@ -332,8 +332,6 @@
         </div>
       </div>
     </div>
-
-
   </div>
 </template>
 
@@ -446,6 +444,9 @@ export default {
 
 }
 
+.about-weitu {
+  height: 100%;
+}
 
 .about-weitu-body {
   width: 60%;
@@ -556,10 +557,12 @@ export default {
       img {
         width: 100%;
       }
-
     }
 
-
+    .image-rotate90 {
+      rotate:90deg;
+      height: 90%;
+    }
   }
 
   .profile-body-odd {
@@ -651,6 +654,17 @@ export default {
       width: 100%;
       height: 300px;
     }
+
+    .image-with-rotate{
+      width: 100%;
+      height: 92%;
+      padding-bottom: 5px;
+    }
+
+    .image-rotate90 {
+      rotate:90deg;
+      height: 90%;
+    }
   }
 
   .plant-overview-grid-second {
@@ -665,6 +679,12 @@ export default {
     img {
       width: 100%;
       height: 300px;
+    }
+
+    .image-with-rotate{
+      width: 100%;
+      height: 92%;
+      padding-bottom: 5px;
     }
   }
 }
