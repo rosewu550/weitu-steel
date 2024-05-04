@@ -16,7 +16,7 @@
             <el-menu-item index="/">portal</el-menu-item>
             <el-menu-item index="/companyPerformance">company performance</el-menu-item>
             <el-menu-item index="/aboutweitu">about weitu</el-menu-item>
-            <el-menu-item index="/case">contact us</el-menu-item>
+            <el-menu-item index="/contactus">contact us</el-menu-item>
           </el-menu>
         </div>
 

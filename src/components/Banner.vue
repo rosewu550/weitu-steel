@@ -52,7 +52,7 @@ export default {
   img {
     position: absolute;
     //width: 1240px;
-    margin-top:100px;
+    margin-top:70px;
     width: 100%;
     height: 100%;
     left: 50%;

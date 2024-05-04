@@ -57,7 +57,7 @@ export default {
     casesList: [],
     img: {
       type: String,
-      default: require("../assets/img/companyPerformance.png")
+      default: require("../assets/img/weitu-top2.jpg")
     }
   },
   mounted() {

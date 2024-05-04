@@ -266,7 +266,7 @@
                 <img class="image-rotate90" src="static/img/overview/image35.jpeg" alt="">
                 <img class="image-rotate90" src="static/img/overview/image33.jpeg" alt="">
                 <img class="image-rotate90" src="static/img/overview/image34.jpeg" alt="">
-                <img class="image-with-rotate"  src="static/img/overview/image36.png" alt="">
+                <img class="image-with-rotate" src="static/img/overview/image36.png" alt="">
               </div>
               <div class="plant-overview-grid-second">
                 <img class="image-rotate90" src="static/img/overview/image32.jpeg" alt="">
@@ -347,7 +347,7 @@ export default {
     casesList: [],
     img: {
       type: String,
-      default: require("../assets/img/companyPerformance.png")
+      default: require("../assets/img/weitu-top2.jpg")
     }
   },
   data() {
@@ -560,7 +560,7 @@ export default {
     }
 
     .image-rotate90 {
-      rotate:90deg;
+      rotate: 90deg;
       height: 90%;
     }
   }
@@ -655,14 +655,14 @@ export default {
       height: 300px;
     }
 
-    .image-with-rotate{
+    .image-with-rotate {
       width: 100%;
       height: 92%;
       padding-bottom: 5px;
     }
 
     .image-rotate90 {
-      rotate:90deg;
+      rotate: 90deg;
       height: 90%;
     }
   }
@@ -675,13 +675,12 @@ export default {
     width: 100%;
 
 
-
     img {
       width: 100%;
       height: 300px;
     }
 
-    .image-with-rotate{
+    .image-with-rotate {
       width: 100%;
       height: 92%;
       padding-bottom: 5px;

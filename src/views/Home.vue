@@ -329,7 +329,7 @@ export default {
 }
 
 .slide-one {
-  background: url(../assets/img/weitu-top.jpg) no-repeat center;
+  background: url(../assets/img/weitu-top2.jpg) no-repeat center;
   background-size: cover;
 }
 
