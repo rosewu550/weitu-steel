@@ -100,7 +100,7 @@ export default {
     width: 60%;
 
     margin: 82px auto 50px;
-    overflow: hidden;
+    // overflow: hidden;
     border-radius: 5px;
 
     .right-contact-us {
