@@ -329,9 +329,65 @@
               </div>
             </div>
           </div>
+          <div class="profile-body-even">
+            <div class="body-even-title">company qualification</div>
+            <div class="body-even-center">
+              <div class="body-even-company-qualification">
+                <div class="company-qualification-row">
+                  <div class="qualification-img-union">
+                    <img src="static/img/companyQualification/image12.png" alt="">
+                    <p>Certification of occupational health and safety management system</p>
+                  </div>
+                </div>
+                <div class="company-qualification-row">
+                  <div class="qualification-img-union">
+                    <img src="static/img/companyQualification/image13.jpeg" alt="">
+                    <p>Business license</p>
+                  </div>
+                  <div class="qualification-img-union">
+                    <img src="static/img/companyQualification/image14.jpeg" alt="">
+                    <p>The qualification of the construction labor service enterprise is ungraded</p>
+                  </div>
+
+                </div>
+                <div class="company-qualification-row">
+                  <div class="qualification-img-union">
+                    <img src="static/img/companyQualification/image15.png" alt="">
+                    <p>Certification of occupational health and safety management system</p>
+                  </div>
+                  <div class="qualification-img-union">
+                    <img src="static/img/companyQualification/image16.png" alt="">
+                    <p>Certification of environmental management system</p>
+                  </div>
+                  <div class="qualification-img-union">
+                    <img src="static/img/companyQualification/image17.png" alt="">
+                    <p>Certification of quality management system for engineering and construction enterprises</p>
+                  </div>
+                </div>
+                <div class="company-qualification-row">
+                  <div class="qualification-img-union">
+                    <img src="static/img/companyQualification/image18.png" alt="">
+                    <p>Certification of occupational health and safety management system</p>
+                  </div>
+                  <div class="qualification-img-union">
+                    <img src="static/img/companyQualification/image19.png" alt="">
+                    <p>Certification of environmental management system</p>
+                  </div>
+                  <div class="qualification-img-union">
+                    <img src="static/img/companyQualification/image20.png" alt="">
+                    <p>Certification of quality management system for engineering and construction enterprises</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </div>
+
+
   </div>
 </template>
 
