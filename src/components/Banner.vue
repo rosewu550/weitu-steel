@@ -5,7 +5,7 @@
       <img :src="img"/>
     </div>
     <div class="banner-title">
-      <p>{{ title }}</p>
+      <div>{{ title }}</div>
     </div>
   </div>
 </template>
@@ -29,8 +29,11 @@ export default {
 <style lang="scss" scoped>
 .banner {
   width: 100%;
-  height: 500px;
+  height: 40dvh;
+  min-height: 300px;
   display: flex;
+  flex-direction: column;
+  //justify-content: center;
   position: relative;
   overflow: hidden;
   background-color: #fff;
@@ -61,16 +64,38 @@ export default {
 
   &-title {
     position: absolute;
-    padding-top:140px;
+    bottom: 30%;
     color: #fff;
     font-size: 45px;
     font-weight: bold;
-    line-height: 300px;
     text-align: center;
     width: 100%;
   }
-
-
-
 }
+
+@media (max-width: 570px) {
+  .banner-title{
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 433px) and (max-height: 800px) {
+  .banner-title{
+    bottom: 20%;
+  }
+}
+
+@media (max-width: 433px) and (min-height: 800px) and (max-height: 1000px) {
+  .banner-title{
+    bottom: 25%;
+  }
+}
+
+@media (min-height: 1000px) {
+  .banner-title{
+    bottom: 35%;
+  }
+}
+
+
 </style>

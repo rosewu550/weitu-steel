@@ -1,45 +1,40 @@
 <template>
   <div class="company-performance">
-    <banner title="COMPANY PERFORMANCE" :img="img"></banner>
-    <div class="news-section" v-loading="loading">
-      <div class="news-section-content">
+    <banner class="banner" title="COMPANY PERFORMANCE" :img="img"></banner>
+    <div class="content-nav-item">
+      <div class="item-list" v-for="(item,index) in casesList" :key="index">
+        <div v-if="index%2 === 0" class="company-case company-case-even">
+          <div class="company-case-title">
+            <label :for="index">{{ item.title }}</label>
+            <div :id="index" class="case-title-root">
+              <router-link
+                  class="text-decoration case-title-more"
+                  :to="{ name: 'cpdetail', params: { id: item.id }}"
+              >
+                <p>more</p>
+                <img :src="require('../assets/img/medium-arrow-black.png')" alt=""/>
+              </router-link>
 
-        <div class="content-nav-item">
-          <div class="item-list" v-for="(item,index) in casesList" :key="index">
-            <div v-if="index%2 === 0" class="company-case company-case-even">
-              <div class="company-case-title">
-                <label :for="index">{{ item.title }}</label>
-                <div :id="index" class="case-title-root">
-                  <router-link
-                      class="text-decoration case-title-more"
-                      :to="{ name: 'cpdetail', params: { id: item.id }}"
-                  >
-                    <p>more</p>
-                    <img :src="require('../assets/img/medium-arrow-black.png')" alt=""/>
-                  </router-link>
-
-                </div>
-              </div>
-              <img :src=item.imgSrc alt="">
             </div>
-            <div v-else class="company-case company-case-odd">
-              <img :src=item.imgSrc alt="">
-              <div class="company-case-title">
-                <label :for="index">{{ item.title }}</label>
-                <div :id="index" class="case-title-root">
-                  <router-link
-                      class="text-decoration case-title-more"
-                      :to="{ name: 'cpdetail', params: { id: item.id }}"
-                  >
-                    <p>more</p>
-                    <img :src="require('../assets/img/medium-arrow-black.png')"/>
-                  </router-link>
-                </div>
-              </div>
+          </div>
+          <img :src=item.imgSrc alt="">
+        </div>
+        <div v-else class="company-case company-case-odd">
+          <img :src=item.imgSrc alt="">
+          <div class="company-case-title">
+            <label :for="index">{{ item.title }}</label>
+            <div :id="index" class="case-title-root">
+              <router-link
+                  class="text-decoration case-title-more"
+                  :to="{ name: 'cpdetail', params: { id: item.id }}"
+              >
+                <p>more</p>
+                <img :src="require('../assets/img/medium-arrow-black.png')"/>
+              </router-link>
             </div>
-            <div class="company-case-divider"></div>
           </div>
         </div>
+        <div class="company-case-divider"></div>
       </div>
     </div>
   </div>
@@ -53,8 +48,12 @@ export default {
   components: {
     Banner
   },
+  data(){
+    return {
+      casesList: [],
+    };
+  },
   props: {
-    casesList: [],
     img: {
       type: String,
       default: require("../assets/img/weitu-top2.jpg")
@@ -78,23 +77,27 @@ export default {
   text-decoration: none;
 }
 
+.banner {
+  margin-bottom: 10vh;
+}
+
 .content-nav-item {
-  width: 1070px;
+  width: 60%;
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
   flex-wrap: wrap;
-  //border: 1px solid blue;
+
 
   .item-list {
     width: 100%;
-    height: 60vh;
+    //height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
-    padding-top: 20vh;
-
+    margin: 50px 0 100px 0;
 
     .company-case {
       width: 100%;
@@ -104,8 +107,9 @@ export default {
       text-align: center;
 
       img {
-        width: 450px;
-        height: 280px;
+        width: 100%;
+        max-width: 450px;
+        max-height: 280px;
       }
     }
 
@@ -114,6 +118,7 @@ export default {
       flex-direction: column;
       justify-content: space-between;
       margin: 30px 0;
+      row-gap: 50%;
       width: 100%;
       height: 220px;
 
@@ -156,7 +161,8 @@ export default {
     }
 
     .company-case-divider {
-      display: flow;
+      display: none;
+      //display: flow;
       width: 100vw;
       height: 2px;
       background: #D9D9D9;
@@ -170,4 +176,65 @@ export default {
 
   }
 }
+
+
+@media (max-width: 1000px) {
+  .content-nav-item .item-list .company-case{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    .content-nav-item .item-list .company-case-title label{
+      width: 100%;
+    }
+  }
+
+  .content-nav-item .item-list .company-case-even{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+@media (max-width: 1400px) {
+  .content-nav-item .item-list{
+    row-gap: 0;
+    padding-top:0;
+
+  }
+
+
+  .content-nav-item .item-list .company-case-title{
+
+    label{
+      font-size: 20px;
+      width: 80%;
+    }
+  }
+}
+
+@media (max-height: 700px) {
+  .content-nav-item{
+    margin-top: 20px;
+  }
+
+  .content-nav-item .item-list .company-case-title{
+    //row-gap: 20%;
+
+    label{
+      font-size: 20px;
+      width: 100%;
+    }
+  }
+}
+
+
+
+
+
+
+
+
 </style>
