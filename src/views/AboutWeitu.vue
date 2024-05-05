@@ -8,7 +8,8 @@
         <div class="menu-content">
           <div class="menu-content-detail">
             <p @click="selectMenu" :class="{'menu-content-selected':menuSelected==='company-profile-menu'}"
-               id="company-profile-menu">Company profile</p>
+               id="company-profile-menu">Company profile
+            </p>
             <p @click="selectMenu" :class="{'menu-content-selected':menuSelected==='construction-management-menu'}"
                id="construction-management-menu">Construction management</p>
             <p @click="selectMenu" :class="{'menu-content-selected':menuSelected==='overview-of-plant-menu'}"
@@ -402,7 +403,6 @@ export default {
     flex-direction: column;
     justify-content: center;
     padding-left: 20px;
-    line-height: 10px;
   }
 
   .vertical-divider {
@@ -426,12 +426,12 @@ export default {
   .menu-content-detail {
     display: flex;
     justify-content: center;
-    padding: 0 30px 3px;
     text-align: center;
+    column-gap: 20px;
+    padding-left: 20px;
 
     p {
-      padding-right: 20px;
-      line-height: 30px;
+      min-width: 50px;
     }
 
     p:hover {
@@ -660,6 +660,52 @@ export default {
     }
   }
 
+}
+
+@media (max-width: 1000px) {
+.about-weitu-menu{
+  width: 100%;
+
+  .menu-logo{
+    font-size: 15px;
+    text-wrap: wrap;
+    margin-inline: auto;
+  }
+
+  .menu-content{
+    margin-inline: auto;
+  }
+}
+}
+
+
+@media (max-width: 650px) {
+  .about-weitu-menu{
+    font-size: 15px;
+
+    .menu-logo {
+      padding-left: 0;
+    }
+
+    .vertical-divider{
+     margin-left: 0;
+    }
+
+
+    .menu-content{
+      margin-inline: unset;
+
+      .menu-content-detail{
+        column-gap: unset;
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1400px) {
+  .about-weitu-menu{
+    width: 80%;
+  }
 }
 
 
