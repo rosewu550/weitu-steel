@@ -219,7 +219,6 @@
           </div>
         </div>
 
-
         <div v-else-if="menuSelected === 'overview-of-plant-menu'" id="overview-of-plant-body">
           <div class="profile-body-even">
             <div class="body-even-title">Plant introduction</div>
@@ -379,10 +378,6 @@ export default {
   text-decoration: none;
 }
 
-.about-weitu {
-  height: 800px;
-}
-
 .menu-content-selected {
   font-weight: bold;
 }
@@ -391,7 +386,8 @@ export default {
   width: 60%;
   height: 60px;
   background: #E9E9E9;
-  margin: 0 auto;
+  margin-inline: auto;
+  margin-bottom: 10vh;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -456,17 +452,25 @@ export default {
   #construction-management-body {
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20vh;
   }
 
   #overview-of-plant-body {
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20vh;
   }
 
   #company-profile-body {
     width: 100%;
     height: 100%;
-    //background: green;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20vh;
 
     .company-case-divider {
       display: flow;
@@ -482,8 +486,8 @@ export default {
   }
 
   .profile-body-even {
-    padding: 100px 0;
-    margin-bottom: 100px;
+    //padding: 100px 0;
+    //margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -499,6 +503,7 @@ export default {
       flex-direction: row;
       justify-content: space-between;
       font-size: 25px;
+      column-gap: 20px;
 
 
       .body-even-left {
@@ -561,8 +566,7 @@ export default {
   }
 
   .profile-body-odd {
-    padding: 100px 0;
-    margin-bottom: 100px;
+    //margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -641,6 +645,7 @@ export default {
     column-gap: 10px;
     row-gap: 10px;
     margin-right: 20px;
+    width: 100%;
 
     img {
       width: 100%;
@@ -676,10 +681,76 @@ export default {
     margin-inline: auto;
   }
 }
+
+
+  .about-weitu-body{
+    width: 90%;
+
+
+    .profile-body-even{
+      .body-even-title{
+        text-align: center;
+        justify-content: center;
+      }
+
+      .body-even-center{
+        font-size: 20px;
+        flex-direction: column-reverse;
+        align-items: center;
+        row-gap: 20px;
+
+        .body-even-left{
+          width: 100%;
+          p {
+            top:0;
+            transform: unset;
+          }
+        }
+
+        .body-even-right img{
+          width: 100%;
+          max-height: 400px;
+        }
+      }
+    }
+
+    .profile-body-odd{
+      .body-odd-title{
+        justify-content: center;
+      }
+
+      .center-construction-management{
+        font-size: 20px;
+      }
+
+      .body-odd-center{
+        font-size: 20px;
+        flex-direction: column-reverse;
+        align-items: center;
+        row-gap: 20px;
+        text-align: center;
+
+        .body-odd-right{
+          width: 100%;
+          text-align: center;
+          p {
+            top:0;
+            transform: unset;
+          }
+        }
+
+        .body-odd-left{
+          width: 100%;
+          max-height: 400px;
+        }
+      }
+    }
+
+  }
 }
 
 
-@media (max-width: 650px) {
+@media (max-width: 530px) {
   .about-weitu-menu{
     font-size: 15px;
 
@@ -706,6 +777,11 @@ export default {
   .about-weitu-menu{
     width: 80%;
   }
+
+  .about-weitu-body{
+    width: 80%;
+  }
+
 }
 
 
