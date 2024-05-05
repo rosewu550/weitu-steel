@@ -70,16 +70,6 @@ export default {
   created() {
     this.pid = this.$route.params.id;
   },
-  mounted() {
-    this.$http.get("static/json/companyCase.json").then((response) => {
-      const casesList = response.data;
-      this.caseDetailMap = casesList.filter((caseMap) => {
-        if (this.pid === caseMap.id) {
-          return caseMap;
-        }
-      })[0];
-    });
-  },
 };
 </script>
 

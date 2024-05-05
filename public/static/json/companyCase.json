@@ -285,15 +285,15 @@
   },
   {
     "title": "Changsha Xingnasi Supply Chain Management Co., Ltd. Changsha Smart Cold Chain Industrial Park Project",
-    "imgSrc": "static/img/case/image80.jpeg",
+    "imgSrc": "static/img/case/image81.jpeg",
     "id": "22",
     "projectLocation": "Changsha Economic Development Zone, Changsha County",
     "constructionUnit": "Changsha Xingnasi Supply Chain Management Co., Ltd.",
     "projectScope": "Concrete column mold, precast concrete beams, and structural installation",
     "projectScale": "building area/steel structure tons - approximately 108,955 m",
     "imgSrcArr": [
-      "static/img/case/image80.jpeg",
-      "static/img/case/image81.jpeg"
+      "static/img/case/image81.jpeg",
+      "static/img/case/image80.jpeg"
     ]
   },
   {
@@ -528,6 +528,10 @@
     "title": "Algeria Sports Stadium",
     "imgSrc": "static/img/case/image116.png",
     "id": "41",
+    "projectLocation": "None yet",
+    "constructionUnit": "None yet",
+    "projectScope": "None yet",
+    "projectScale": "None yet",
     "imgSrcArr": [
       "static/img/case/image116.png"
     ]

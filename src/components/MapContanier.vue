@@ -47,5 +47,11 @@ export default {
   width: 100%;
   height: 500px;
 }
+
+@media (max-width: 800px) {
+  #container{
+    height: 250px;
+  }
+}
 </style>
 
