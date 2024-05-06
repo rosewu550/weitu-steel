@@ -54,12 +54,14 @@ export default {
     this.$nextTick(() => {
       const screenWide = window.innerWidth || document.documentElement.clientWidth;
       this.isWideScreen = screenWide >= 1000;
+      // window.carouselHeight = this.isWideScreen ? "600px" : "300px";
     })
   },
   mounted() {
     window.onresize = () => {
       const screenWide = window.innerWidth || document.documentElement.clientWidth;
       this.isWideScreen = screenWide >= 1000;
+      // window.carouselHeight = this.isWideScreen ? "600px" : "300px";
     }
   },
   methods: {
