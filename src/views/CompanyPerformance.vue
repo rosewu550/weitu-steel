@@ -48,7 +48,7 @@ export default {
   components: {
     Banner
   },
-  data(){
+  data() {
     return {
       casesList: [],
     };
@@ -88,6 +88,7 @@ export default {
   flex-direction: column;
   justify-content: flex-start;
   flex-wrap: wrap;
+  row-gap: 50px;
 
 
   .item-list {
@@ -105,6 +106,7 @@ export default {
       display: flex;
       margin: 0 auto;
       text-align: center;
+      column-gap: 20px;
 
       img {
         width: 100%;
@@ -118,12 +120,11 @@ export default {
       flex-direction: column;
       justify-content: space-between;
       margin: 30px 0;
-      row-gap: 50%;
       width: 100%;
       height: 220px;
 
       label {
-        width: 50%;
+        width: 100%;
         font-weight: bold;
         font-size: 25px;
         text-align: center;
@@ -179,18 +180,28 @@ export default {
 
 
 @media (max-width: 1000px) {
-  .content-nav-item .item-list .company-case{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .content-nav-item .item-list {
+    margin: unset;
 
-
-    .content-nav-item .item-list .company-case-title label{
-      width: 100%;
+    .company-case {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
   }
 
-  .content-nav-item .item-list .company-case-even{
+  .content-nav-item .item-list .company-case-title {
+    justify-content: flex-start;
+    row-gap: 20px;
+
+    .case-title-root {
+    }
+
+    label {
+      width: 100%;
+    }
+  }
+  .content-nav-item .item-list .company-case-even {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
@@ -199,16 +210,16 @@ export default {
 }
 
 @media (max-width: 1400px) {
-  .content-nav-item .item-list{
+  .content-nav-item .item-list {
     row-gap: 0;
-    padding-top:0;
+    padding-top: 0;
 
   }
 
 
-  .content-nav-item .item-list .company-case-title{
+  .content-nav-item .item-list .company-case-title {
 
-    label{
+    label {
       font-size: 20px;
       width: 80%;
     }
@@ -216,25 +227,19 @@ export default {
 }
 
 @media (max-height: 700px) {
-  .content-nav-item{
+  .content-nav-item {
     margin-top: 20px;
   }
 
-  .content-nav-item .item-list .company-case-title{
+  .content-nav-item .item-list .company-case-title {
     //row-gap: 20%;
 
-    label{
+    label {
       font-size: 20px;
       width: 100%;
     }
   }
 }
-
-
-
-
-
-
 
 
 </style>

@@ -5,7 +5,7 @@
       <div class="case-detail-item">
 
         <div class="case-detail-swiper">
-          <el-carousel height="600px" interval=5000 indicator-position="outside">
+          <el-carousel :height="carouselHeight" interval=5000 indicator-position="outside">
             <el-carousel-item v-for="item in caseDetailMap.imgSrcArr" :key="item">
               <img :src=item alt="">
             </el-carousel-item>
@@ -38,14 +38,17 @@ export default {
   },
   data() {
     return {
+      carouselHeight: "600px",
       pid: -1,
       caseDetailMap: {}
     };
   },
   created() {
     this.pid = this.$route.params.id;
+    // this.carouselHeight = window.carouselHeight;
   },
   mounted() {
+    // this.carouselHeight = window.carouselHeight;
     this.$http.get('static/json/companyCase.json').then(response => {
       const casesList = response.data;
       this.caseDetailMap = casesList.filter(caseMap => {
