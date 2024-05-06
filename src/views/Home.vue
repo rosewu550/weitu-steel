@@ -303,6 +303,7 @@ export default {
 
 //经典案例
 .case-item {
+  width: 60%;
   overflow: hidden;
   margin: 82px auto 82px;
   display: grid;
