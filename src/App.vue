@@ -13,25 +13,24 @@
             <el-menu-item index="/aboutweitu">about weitu</el-menu-item>
             <el-menu-item index="/contactus">contact us</el-menu-item>
           </el-menu>
-          <el-menu v-else :default-active="defaultActive" mode="vertical" :collapse=false @select="handleSelect"
-                   :router="router" class="vertical-menu">
-            <el-submenu index="">
-              <template slot="title">
-                <i class="el-icon-menu"></i>
-              </template>
-              <el-menu-item index="/">portal</el-menu-item>
-              <el-menu-item index="/companyPerformance">company performance</el-menu-item>
-              <el-menu-item index="/aboutweitu">about weitu</el-menu-item>
-              <el-menu-item index="/contactus">contact us</el-menu-item>
-            </el-submenu>
-          </el-menu>
+
+          <el-dropdown @command="handleCommand" v-else>
+            <span>
+              <i class="el-icon-menu el-icon--right"></i>
+            </span>
+            <el-dropdown-menu>
+              <el-dropdown-item command="/">portal</el-dropdown-item>
+              <el-dropdown-item command="/companyPerformance">company performance</el-dropdown-item>
+              <el-dropdown-item command="/aboutweitu">about weitu</el-dropdown-item>
+              <el-dropdown-item command="/contactus">contact us</el-dropdown-item>
+            </el-dropdown-menu>
+          </el-dropdown>
         </div>
       </el-header>
-
-
       <el-main>
         <router-view/>
       </el-main>
+<!--      <Footer></Footer>-->
     </el-container>
   </div>
 </template>
@@ -48,7 +47,7 @@ export default {
       router: true,
       defaultActive: "/",
       isShow: false,
-      isWideScreen:true,
+      isWideScreen: true,
     };
   },
   created() {
@@ -67,6 +66,9 @@ export default {
     handleSelect(key) {
       this.isShow = this.defaultActive != key;
     },
+    handleCommand(command) {
+      this.$router.push({ path: command });
+    }
   },
 };
 </script>
@@ -123,6 +125,42 @@ body {
   padding: 0 !important;
 }
 
+
+.el-icon-menu {
+  font-size: 35px;
+  color: black;
+}
+
+.el-dropdown{
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: none;
+  position: fixed !important;
+  right: 20px;
+  top: 35px;
+}
+
+.el-dropdown-menu {
+  .el-dropdown-menu__item {
+    font-size: 20px !important;
+    font-family: "Outfit", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #909399;
+  }
+}
+
+.el-dropdown-menu__item:focus, .el-dropdown-menu__item:not(.is-disabled):hover{
+  background-color: rgba(211, 211, 211, 0.28) !important;
+  color:black !important;
+}
+
+.el-menu.el-menu--horizontal{
+  border-bottom: none !important;
+}
+
 .el-menu.horizontal-menu {
   height: 100% !important;
   display: flex;
@@ -140,17 +178,18 @@ body {
   right: 0;
   top: 25px;
 
-  .el-submenu__title:hover{
+  .el-submenu__title:hover {
     background: white !important;
   }
 
-  .el-submenu__title{
+  .el-submenu__title {
     padding: 0 40px !important;
+
     i {
       color: black;
     }
 
-    .el-icon-menu{
+    .el-icon-menu {
       margin-right: 10px;
     }
 
@@ -160,7 +199,7 @@ body {
     }
   }
 
-  .el-menu-item{
+  .el-menu-item {
     color: #909399;
   }
 
@@ -174,17 +213,12 @@ body {
     //background-color: #303133 !important;
   }
 
-
-  //position: absolute;
-  //float: right;
-  //right: 0;
-  //margin-top: 150px;
   .el-submenu {
     top: 0;
   }
 
-  .el-submenu.is-active{
-    .el-submenu__title{
+  .el-submenu.is-active {
+    .el-submenu__title {
       border-bottom-color: black !important;
     }
   }
@@ -202,20 +236,5 @@ body {
 
 .el-menu-item.is-active {
 }
-
-//@media (max-width: 992px) {
-//  .el-header {
-//    display: none;
-//  }
-//}
-//
-//.el-menu-vertical-right {
-//  width: 200px;
-//  min-height: 100%;
-//  position: fixed;
-//  left: 0;
-//  top: 64px;
-//  bottom: 0;
-//}
 </style>
 

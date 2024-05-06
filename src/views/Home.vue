@@ -28,35 +28,43 @@
         >
           <div class="bottom-page">
             <p>more</p>
-            <img src="../assets/img/medium-arrow.png"/>
+            <img src="../assets/img/medium-arrow-black.png"/>
           </div>
         </router-link>
       </div>
 
       <div class="portal-third swiper-slide slide-three">
-        <div class="page">
-          <h3>CONTACT US</h3>
-          <div class="map">
-            <MapContainer></MapContainer>
-          </div>
+        <div class="contact-us-page">
+          <div class="contact-left">
+            <div class="contact-detail">
 
-          <div class="contact-detail">
-            <div class="first-column">
-              <label class="address-label" for="address">address:</label>
-              <div id="address">
-                Room 902, Building 5, Lane 680, Shuichan West Road, Baoshan District, Shanghai, China
+              <div class="first-column">
+                <label class="address-label" for="address">address:</label>
+                <div id="address">
+                  Room 902, Building 5, Lane 680, Shuichan West Road, Baoshan District, Shanghai, China
+                </div>
+              </div>
+              <div class="second-column">
+                <label for="post-code">post code:</label>
+                <div id="post-code">200126</div>
+
+                <label for="telephone">telephone:</label>
+                <div id="telephone">13091119111</div>
+
+                <label for="email">email:</label>
+                <div id="email">912112919191@qq.com</div>
               </div>
             </div>
-            <div class="second-column">
-              <label for="post-code">post code:</label>
-              <div id="post-code">200126</div>
-
-              <label for="telephone">telephone:</label>
-              <div id="telephone">13091119111</div>
-
-              <label for="email">email:</label>
-              <div id="email">912112919191@qq.com</div>
-            </div>
+              <router-link
+                  class="text-decoration contact-us-title"
+                  :to="{ name: 'contactus'}"
+              >
+                <p >CONTACT US</p>
+                <img src="../assets/img/medium-arrow.png"/>
+              </router-link>
+          </div>
+          <div class="map">
+            <MapContainer></MapContainer>
           </div>
         </div>
       </div>
@@ -141,8 +149,10 @@ export default {
 
   .portal-third {
     min-height: 100dvh !important;
-    padding-top: 94px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -155,7 +165,6 @@ export default {
 
   .page {
     text-align: center;
-    //height: 550px;
     overflow: hidden;
 
     .big-slogan {
@@ -168,7 +177,7 @@ export default {
     p {
       font-size: 30px;
       font-weight: bold;
-      color: #fff;
+      color: black;
     }
   }
 
@@ -190,7 +199,7 @@ export default {
     p {
       font-size: 30px;
       //font-weight: bold;
-      color: #fff;
+      color: black;
       position: relative;
     }
   }
@@ -208,60 +217,87 @@ export default {
 }
 
 .portal-third {
-  .page {
+  .contact-us-page{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+
+    .contact-us-title {
+      display: flex;
+      color: #fff;
+      p {
+        font-weight: bold;
+      }
+
+      img {
+        width: 18px;
+        height: 14px;
+        margin: 8px 0 0 10px;
+      }
+    }
+
+    .contact-left{
+      align-self: center;
+      justify-self: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      row-gap: 100px;
+
+      .contact-detail {
+        width: 100%;
+        min-width: 350px;
+        display: flex;
+        flex-wrap: wrap;
+        color: white;
+        justify-content: flex-start;
+        //margin: 0 auto 50px;
+        text-wrap: wrap;
+        text-align: left;
+        row-gap: 20px;
+
+        label {
+          min-width: 130px;
+          font-weight: bold;
+        }
+
+        .first-column {
+          display: grid;
+          grid-template-columns: 1fr 4fr;
+          //grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+          //width: 45%;
+          min-width: 300px;
+          text-align: start;
+
+          .address-label{
+            margin-bottom: 20px;
+          }
+        }
+
+        .second-column {
+          width: 50%;
+          display: grid;
+          grid-template-columns: 1fr 3fr;
+          column-gap: 1rem;
+          text-align: start;
+          row-gap: 20px;
+
+        }
+      }
+
+    }
+
+
     .map {
       display: block;
-      width: 60%;
-      margin: 82px auto 50px;
+      width: 100%;
       overflow: hidden;
       border-radius: 5px;
     }
 
-    .contact-detail {
-      width: 60%;
-      min-width: 350px;
-      display: flex;
-      flex-wrap: wrap;
-      color: white;
-      justify-content: flex-end;
-      margin: 0 auto 50px;
-      text-wrap: wrap;
-      text-align: left;
-      row-gap: 20px;
 
-
-
-      label {
-        min-width: 130px;
-        font-weight: bold;
-      }
-
-      .first-column {
-        display: grid;
-        grid-template-columns: 1fr 4fr;
-        //grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        width: 45%;
-        min-width: 300px;
-        text-align: start;
-
-        .address-label{
-          margin-bottom: 20px;
-        }
-      }
-
-      .second-column {
-        width: 50%;
-        display: grid;
-        grid-template-columns: 1fr 3fr;
-        column-gap: 1rem;
-        text-align: start;
-        row-gap: 20px;
-
-      }
-    }
-
-    h3 {
-    }
   }
 }
 
@@ -303,7 +339,7 @@ export default {
 
   .case-item-img-title {
     margin-top: 5px;
-    color: white;
+    color: black;
     font-size: 15px;
     text-align: center;
   }
@@ -315,12 +351,12 @@ export default {
 }
 
 .slide-two {
-  background: url(../assets/img/weitu-center-2.png) no-repeat center;
-  background-size: cover;
+  //background: url(../assets/img/weitu-center-2.png) no-repeat center;
+  //background-size: cover;
 }
 
 .slide-three {
-  background: url(../assets/img/home-bottom.png) no-repeat center;
+  background: url(../assets/img/weitu-center-2.png) no-repeat center;
   background-size: cover;
 }
 
@@ -342,6 +378,30 @@ export default {
     .first-column {
       width: 100%;
     }
+  }
+
+  .portal-third .contact-us-page {
+    grid-template-columns: 1fr;
+    width: 100%;
+
+
+    .contact-left{
+      order: 2;
+      align-self: center;
+      height: 400px;
+      row-gap: 50px;
+      width: 80%;
+
+    }
+
+    .map{
+      width: 80%;
+      order: 1;
+      height: 80%;
+      align-self: center;
+      justify-self: center;
+    }
+
   }
 }
 
@@ -376,6 +436,12 @@ export default {
 @media (max-width: 400px) {
   .portal-third .page .map{
     width: 90%;
+  }
+}
+
+@media (max-width: 1500px) and (min-width: 1000px) {
+  .portal-third .contact-us-page {
+    width: 80%;
   }
 }
 

@@ -88,6 +88,7 @@ export default {
   flex-direction: column;
   justify-content: flex-start;
   flex-wrap: wrap;
+  row-gap: 50px;
 
 
   .item-list {
@@ -105,6 +106,7 @@ export default {
       display: flex;
       margin: 0 auto;
       text-align: center;
+      column-gap: 20px;
 
       img {
         width: 100%;
@@ -118,12 +120,11 @@ export default {
       flex-direction: column;
       justify-content: space-between;
       margin: 30px 0;
-      row-gap: 50%;
       width: 100%;
       height: 220px;
 
       label {
-        width: 50%;
+        width: 100%;
         font-weight: bold;
         font-size: 25px;
         text-align: center;
