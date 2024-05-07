@@ -46,13 +46,13 @@
               </div>
               <div class="second-column">
                 <label for="post-code">post code:</label>
-                <div id="post-code">200126</div>
+                <div id="post-code">201900</div>
 
                 <label for="telephone">telephone:</label>
-                <div id="telephone">13091119111</div>
+                <div id="telephone">18601733332</div>
 
                 <label for="email">email:</label>
-                <div id="email">912112919191@qq.com</div>
+                <div id="email">xaerpg@163.com</div>
               </div>
             </div>
               <router-link
