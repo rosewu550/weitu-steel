@@ -45,10 +45,23 @@ export default {
   },
   created() {
     this.pid = this.$route.params.id;
-    // this.carouselHeight = window.carouselHeight;
+    let _$nextTick = this.$nextTick;
+    this.$nextTick(() => {
+      _$nextTick();
+      const screenWide = window.innerWidth || document.documentElement.clientWidth;
+      const isWideScreen = screenWide >= 1000;
+      this.carouselHeight = isWideScreen ? "600px" : "300px";
+    })
   },
   mounted() {
-    // this.carouselHeight = window.carouselHeight;
+    let _windowOnresize = window.onresize;
+    window.onresize = () => {
+      _windowOnresize();
+      const screenWide = window.innerWidth || document.documentElement.clientWidth;
+      const isWideScreen = screenWide >= 1000;
+      this.carouselHeight = isWideScreen ? "600px" : "300px";
+    }
+
     this.$http.get('static/json/companyCase.json').then(response => {
       const casesList = response.data;
       this.caseDetailMap = casesList.filter(caseMap => {
@@ -93,7 +106,7 @@ export default {
 
   img {
     width: 100%;
-    height: 600px;
+    height: 100%;
 
   }
 

@@ -10,12 +10,12 @@
             <div class="left-part left-telephone">
               <img src="../assets/img/telephone.png" alt=""/>
               <div class="left-part-title">telephone:</div>
-              <p>13091119111</p>
+              <p>18601733332</p>
             </div>
             <div class="left-part left-email">
               <img src="../assets/img/email.png" alt=""/>
               <div class="left-part-title">email:</div>
-              <p>912112919191@qq.com</p>
+              <p>xaerpg@163.com</p>
             </div>
           </div>
           <div class="right-contact-us">
@@ -39,7 +39,7 @@
                 <div class="card-detail">
                   <img class="horizontal-divider" src="../assets/img/horizon-divider.png" alt=""/>
                   <div class="detail-word">post code:</div>
-                  <div class="detail-word">200126</div>
+                  <div class="detail-word">201900</div>
                 </div>
               </div>
 
