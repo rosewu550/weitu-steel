@@ -222,6 +222,7 @@ export default {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 50px;
+    justify-content: center;
 
     .contact-us-title {
       display: flex;
@@ -309,6 +310,7 @@ export default {
   display: grid;
   row-gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+  justify-content: center;
 
   li {
     justify-self: center;
@@ -367,6 +369,18 @@ export default {
 
 .order-img {
   order: 1;
+}
+
+@media (max-width: 680px) {
+  .case-item {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1800px) {
+  .case-item {
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  }
 }
 
 @media (max-width: 1000px) {
