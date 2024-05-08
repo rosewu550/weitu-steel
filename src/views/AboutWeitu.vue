@@ -488,7 +488,6 @@ export default {
 
     p:hover {
       cursor: pointer;
-      font-weight: bold;
     }
 
 

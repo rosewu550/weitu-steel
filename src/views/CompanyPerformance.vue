@@ -112,6 +112,7 @@ export default {
         width: 100%;
         max-width: 450px;
         max-height: 280px;
+        border-radius: 5px;
       }
     }
 
