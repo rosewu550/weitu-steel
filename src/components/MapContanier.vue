@@ -22,15 +22,25 @@ export default {
       }).then((AMap) => {
         this.map = new AMap.Map("container", {
           viewMode: "3D",
-          zoom: 11,
+          zoom: 10,
           center: [121.418042, 31.355867],
           mapStyle: "amap://styles/whitesmoke",
         });
 
+        const icon = new AMap.Icon({
+          size: new AMap.Size(24,24),
+          image:"favicon.ico",
+          imageOffset:new AMap.Pixel(0,0),
+          imageSize: new AMap.Size(24,24)
+        })
+
         const marker = new AMap.Marker({
           position: new AMap.LngLat(121.418042, 31.355867),
+          icon:icon,
+          title:"weitu steel",
           label: {
             content: "WEITU STEEL",
+            direction: 'right'
           },
         });
         this.map.add(marker);
@@ -40,12 +50,18 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 #container {
   padding: 0;
   margin: 0;
   width: 100%;
   height: 500px;
+
+  .amap-marker-label{
+    border: 0;
+    font-weight: bold;
+    background-color: transparent;
+  }
 }
 
 @media (max-width: 800px) {
