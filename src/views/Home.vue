@@ -38,21 +38,21 @@
           <div class="contact-left">
             <div class="contact-detail">
 
-              <div class="first-column">
-                <label class="address-label" for="address">address:</label>
-                <div id="address">
-                  Room 902, Building 5, Lane 680, Shuichan West Road, Baoshan District, Shanghai, China
-                </div>
-              </div>
               <div class="second-column">
                 <label for="post-code">post code:</label>
-                <div id="post-code">201900</div>
+                <div class="column-content" id="post-code">201900</div>
 
                 <label for="telephone">telephone:</label>
-                <div id="telephone">18601733332</div>
+                <div class="column-content" id="telephone">18601733332</div>
 
                 <label for="email">email:</label>
-                <div id="email">xaerpg@163.com</div>
+                <div class="column-content" id="email">xaerpg@163.com</div>
+              </div>
+              <div class="first-column">
+                <label class="address-label" for="address">address:</label>
+                <div class="column-content" id="address">
+                  Room 902, Building 5, Lane 680, Shuichan West Road, Baoshan District, Shanghai, China
+                </div>
               </div>
             </div>
               <router-link
@@ -266,11 +266,11 @@ export default {
 
         .first-column {
           display: grid;
-          grid-template-columns: 1fr 4fr;
-          //grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-          //width: 45%;
+          grid-template-columns: 1fr 5fr;
           min-width: 300px;
           text-align: start;
+          column-gap: 1rem;
+
 
           .address-label{
             margin-bottom: 20px;
@@ -284,6 +284,11 @@ export default {
           column-gap: 1rem;
           text-align: start;
           row-gap: 20px;
+
+        }
+
+        .column-content {
+          font-size: 22px;
 
         }
       }
