@@ -249,7 +249,7 @@ export default {
 
       .contact-detail {
         width: 100%;
-        min-width: 350px;
+        //min-width: 350px;
         display: flex;
         flex-wrap: wrap;
         color: white;
@@ -288,8 +288,8 @@ export default {
         }
 
         .column-content {
-          font-size: 22px;
-
+          align-content: center;
+          font-size: 18px;
         }
       }
 
@@ -411,6 +411,7 @@ export default {
       height: 400px;
       row-gap: 50px;
       width: 80%;
+      text-align: right;
 
     }
 
