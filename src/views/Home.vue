@@ -409,7 +409,7 @@ export default {
       order: 2;
       align-self: center;
       height: 400px;
-      row-gap: 50px;
+      row-gap: 6rem;
       width: 80%;
       text-align: right;
 
